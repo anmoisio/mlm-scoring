@@ -169,9 +169,9 @@ class Corpus(OrderedDict):
         num_ref_words = 0.0
         # TODO: Here we aggregate all edits and then 
         for utt_id, hyps in preds.items():
-            pred_sent = hyps.sents[0]
-            edit_dist += self._edit_distance(pred_sent, self[utt_id])
-            num_ref_words += self._get_num_words_in_utt(self[utt_id])
+            pred_sent = hyps.sents[0].replace('+ +', '')
+            edit_dist += self._edit_distance(pred_sent, self[utt_id].replace('+ +', ''))
+            num_ref_words += self._get_num_words_in_utt(self[utt_id].replace('+ +', ''))
         return edit_dist / num_ref_words
 
 
@@ -353,7 +353,7 @@ class Predictions(OrderedDict):
                     "text": sent
                 }
 
-        json.dump(json_dict, fp, indent=2, separators=(',', ': '), sort_keys=True)
+        json.dump(json_dict, fp, indent=2, separators=(',', ': '), sort_keys=True, ensure_ascii=False)
 
 
 class ScoredCorpus(OrderedDict):
