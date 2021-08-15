@@ -13,7 +13,7 @@ import torch
 import transformers
 
 from .gpt2 import gpt2_117m, gpt2_345m
-from .bert import BERTRegression, AlbertForMaskedLMOptimized, BertForMaskedLMOptimized, DistilBertForMaskedLMOptimized
+from .bert import BERTRegression, AlbertForMaskedLMOptimized, BertForMaskedLMOptimized, BertForMaskedLM, DistilBertForMaskedLMOptimized
 
 # get_model() is from:
 # https://github.com/dmlc/gluon-nlp/blob/master/scripts/text_generation/model/__init__.py
@@ -143,7 +143,12 @@ def get_pretrained(ctxs: List[mx.Context], name: str = 'bert-base-en-uncased', p
             # model.load_state_dict(new_state_dict)
 
         else:
-            raise ValueError("Model '{}' is not currently a supported PyTorch model".format(name))
+            model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+            tokenizer = transformers.BertTokenizer.from_pretrained(model_fullname)
+            vocab = None
+
+        # else:
+        #     raise ValueError("Model '{}' is not currently a supported PyTorch model".format(name))
 
     # Name format: model-size-lang-cased/uncased(-dataset / special characteristic)
     # e.g., 'bert-base-en-uncased-owt', 'gpt2-117m-en-cased'
