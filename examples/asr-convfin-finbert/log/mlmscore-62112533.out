@@ -1,0 +1,26 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+scoring hypotheses using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 09:06:08 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-10 09:06:14 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 09:06:14 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 09:06:55 WARNING  # of input sequences: 541
+2021-08-10 09:06:55 WARNING  # of hypotheses: 27211
+2021-08-10 09:07:04 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 09:09:04 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-10 09:10:57 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-10 09:12:54 INFO     37707 sents of 409984, batch 60 of 235
+slurmstepd: error: *** JOB 62112533 ON gpu21 CANCELLED AT 2021-08-10T09:13:38 ***
+Job has already finished for job 62112533

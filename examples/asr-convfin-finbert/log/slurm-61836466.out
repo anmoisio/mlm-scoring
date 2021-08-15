@@ -1,0 +1,17 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-23 12:14:21.796905: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-23 12:14:24 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-23 12:14:31 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-23 12:14:31 WARNING  Language was set but this model does not use language embeddings!
+2021-07-23 12:14:37 WARNING  # of input sequences: 989
+2021-07-23 12:14:37 WARNING  # of hypotheses: 876564
+slurmstepd: error: *** JOB 61836466 ON gpu27 CANCELLED AT 2021-07-23T12:18:15 ***
+Job has already finished for job 61836466

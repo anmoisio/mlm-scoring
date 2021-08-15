@@ -1,0 +1,311 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-26 16:26:06.679859: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-26 16:26:09 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-26 16:26:16 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-26 16:26:16 WARNING  Language was set but this model does not use language embeddings!
+2021-07-26 16:26:19 WARNING  # of input sequences: 58
+2021-07-26 16:26:19 WARNING  # of hypotheses: 3598
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (533 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (533 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (533 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (533 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (536 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (534 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (535 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3499 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3500 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3501 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3502 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3503 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3504 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3505 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:26 ERROR    Line #3506 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3507 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3508 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3509 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3510 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3511 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3512 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3513 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3514 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3515 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3516 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3517 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3518 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3519 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3520 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3521 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3522 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3523 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3524 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3525 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3526 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3527 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3528 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3529 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3530 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3531 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3532 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3533 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3534 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3535 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3536 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3537 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3538 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3539 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1644 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3540 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3541 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3542 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3543 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3544 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3545 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3546 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3547 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3548 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3549 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3550 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3551 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3552 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3553 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3554 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3555 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3556 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3557 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3558 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3559 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3560 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3561 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3562 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3563 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3564 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3565 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3566 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3567 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3568 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:27 ERROR    Line #3569 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3570 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3571 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1644 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3572 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3573 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3574 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3575 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3576 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3577 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3578 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3579 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3580 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3581 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3582 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3583 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3584 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3585 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3586 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3587 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3588 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3589 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3590 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3591 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1647 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3592 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3593 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3594 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3595 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1645 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3596 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3597 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+Token indices sequence length is longer than the specified maximum sequence length for this model (1646 > 512). Running this sequence through the model will result in indexing errors
+2021-07-26 16:26:28 ERROR    Line #3598 is too long; will output score of 0 and omit in token counts (but not yet in word counts!)
+/home/moisioa3/.local/lib/python3.8/site-packages/gluonnlp/data/sampler.py:353: UserWarning: Some buckets are empty and will be removed. Unused bucket keys=[380, 432, 484]
+  warnings.warn('Some buckets are empty and will be removed. Unused bucket keys=%s' %
+2021-07-26 16:26:28 INFO     FixedBucketSampler:
+  sample_num=394561, batch_num=318
+  key=[68, 120, 172, 224, 276, 328, 536]
+  cnt=[39324, 124475, 64001, 49609, 16718, 67422, 33012]
+  batch_size=[3941, 2233, 1558, 1196, 971, 817, 500]
+Traceback (most recent call last):
+  File "/home/moisioa3/.local/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 236, in cmd_score
+    scores, true_tok_lens = scorer.score(corpus_for_scoring, ratio=1, split_size=args.split_size, per_token=args.per_token)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/scorers.py", line 726, in score
+    out = self._model(input_ids=token_ids, attention_mask=mask, select_positions=masked_positions)
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 165, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/bert.py", line 260, in forward
+    outputs = self.bert(
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/transformers/modeling_bert.py", line 830, in forward
+    embedding_output = self.embeddings(
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/transformers/modeling_bert.py", line 201, in forward
+    embeddings = inputs_embeds + position_embeddings + token_type_embeddings
+RuntimeError: The size of tensor a (534) must match the size of tensor b (512) at non-singleton dimension 1
+/var/spool/slurmd/job61929228/slurm_script: line 20: ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_lahjoitapuhetta-transcript-comparison_morph_nosp_4-gram_rnnlm_rescored_combined/lm_combined.ac_scale0.1.json: Permission denied

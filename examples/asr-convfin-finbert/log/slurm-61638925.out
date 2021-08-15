@@ -1,0 +1,28 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-13 14:15:06.885801: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-13 14:15:09 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-13 14:15:15 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-13 14:15:15 WARNING  Language was set but this model does not use language embeddings!
+2021-07-13 14:15:19 WARNING  # of input sequences: 989
+2021-07-13 14:15:19 WARNING  # of hypotheses: 94161
+2021-07-13 14:16:08 INFO     FixedBucketSampler:
+  sample_num=2959851, batch_num=1662
+  key=[30, 54, 78, 102, 126, 150, 174, 198, 222, 246]
+  cnt=[937337, 936890, 492376, 193740, 136710, 106848, 37017, 29005, 29784, 60144]
+  batch_size=[4100, 2277, 1576, 1205, 976, 820, 706, 621, 554, 500]
+2021-07-13 14:16:49 INFO     10000 sents of 2959851, batch 20 of 1662
+2021-07-13 14:17:29 INFO     20000 sents of 2959851, batch 40 of 1662
+2021-07-13 14:18:09 INFO     30000 sents of 2959851, batch 60 of 1662
+2021-07-13 14:18:51 INFO     40000 sents of 2959851, batch 80 of 1662
+2021-07-13 14:19:34 INFO     50000 sents of 2959851, batch 100 of 1662
+2021-07-13 14:20:17 INFO     60000 sents of 2959851, batch 120 of 1662
+slurmstepd: error: *** JOB 61638925 ON dgx7 CANCELLED AT 2021-07-13T14:20:28 ***
+Job has already finished for job 61638925

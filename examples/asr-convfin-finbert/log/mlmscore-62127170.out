@@ -1,0 +1,42 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-40000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm score [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                 [--weights WEIGHTS] [--mode {ref,hyp}] [--temp TEMP]
+                 [--split-size SPLIT_SIZE] [--no-mask] [--tgt TGT] [--eos]
+                 [--detok] [--capitalize | --no-capitalize]
+                 [--whole-word-mask] [--per-token]
+                 [infile]
+mlm score: error: argument infile: can't open '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json'
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-60000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm score [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                 [--weights WEIGHTS] [--mode {ref,hyp}] [--temp TEMP]
+                 [--split-size SPLIT_SIZE] [--no-mask] [--tgt TGT] [--eos]
+                 [--detok] [--capitalize | --no-capitalize]
+                 [--whole-word-mask] [--per-token]
+                 [infile]
+mlm score: error: argument infile: can't open '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json'
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-82000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm score [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                 [--weights WEIGHTS] [--mode {ref,hyp}] [--temp TEMP]
+                 [--split-size SPLIT_SIZE] [--no-mask] [--tgt TGT] [--eos]
+                 [--detok] [--capitalize | --no-capitalize]
+                 [--whole-word-mask] [--per-token]
+                 [infile]
+mlm score: error: argument infile: can't open '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram/ac_combined.ac_scale0.1.json'

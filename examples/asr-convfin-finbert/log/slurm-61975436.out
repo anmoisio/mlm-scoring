@@ -1,0 +1,84 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Package                Version             Location
+---------------------- ------------------- ----------------------------------------------
+brotlipy               0.7.0
+certifi                2020.12.5
+cffi                   1.14.3
+chardet                3.0.4
+click                  8.0.1
+conda                  4.10.1
+conda-package-handling 1.7.2
+cryptography           3.2.1
+docopt                 0.6.2
+filelock               3.0.12
+gluonnlp               0.8.3
+graphviz               0.8.4
+idna                   2.10
+joblib                 1.0.1
+mamba                  0.7.12
+mlm                    0.1                 /scratch/work/moisioa3/conv_lm/mlm-scoring/src
+mosestokenizer         1.1.0
+mxnet-cu110            1.8.0.post0
+numpy                  1.21.1
+openfile               0.0.7
+packaging              21.0
+pip                    20.2.4
+portalocker            2.0.0
+pycosat                0.6.3
+pycparser              2.20
+pyOpenSSL              19.1.0
+pyparsing              2.4.7
+PySocks                1.7.1
+regex                  2021.7.6
+requests               2.24.0
+ruamel-yaml            0.15.87
+sacrebleu              1.5.1
+sacremoses             0.0.45
+sentencepiece          0.1.96
+setuptools             50.3.1.post20201107
+six                    1.15.0
+tokenizers             0.8.1rc2
+toolwrapper            2.1.0
+tqdm                   4.51.0
+transformers           3.3.1
+uctools                1.3.0
+urllib3                1.25.11
+wheel                  0.35.1
+Traceback (most recent call last):
+  File "mxnet_test.py", line 1, in <module>
+    import mxnet as mx
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/__init__.py", line 23, in <module>
+    from .context import Context, current_context, cpu, gpu, cpu_pinned
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/context.py", line 23, in <module>
+    from .base import classproperty, with_metaclass, _MXClassPropertyMetaClass
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/base.py", line 351, in <module>
+    _LIB = _load_lib()
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/base.py", line 342, in _load_lib
+    lib = ctypes.CDLL(lib_path[0], ctypes.RTLD_LOCAL)
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/miniconda/4.9.2/f625fd92/lib/python3.8/ctypes/__init__.py", line 381, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcudnn.so.8: cannot open shared object file: No such file or directory

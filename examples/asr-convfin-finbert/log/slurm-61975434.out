@@ -1,0 +1,11 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/var/spool/slurmd/job61975434/slurm_script: line 14: pip: command not found
+Traceback (most recent call last):
+  File "mxnet_test.py", line 1, in <module>
+    import mxnet as mx
+ImportError: No module named mxnet

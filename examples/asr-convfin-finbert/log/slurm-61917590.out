@@ -1,0 +1,33 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+weight 0.5
+2021-07-26 10:33:13.010469: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-26 10:33:15 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-26 10:33:24 WARNING  989 shared keys found, rescoring these...
+2021-07-26 10:33:32 WARNING  989 predictions to compute total WER on...
+2021-07-26 10:33:32 WARNING  WER: 35.34393956735722%
+weight 1
+2021-07-26 10:33:35.550805: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-26 10:33:37 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-26 10:33:46 WARNING  989 shared keys found, rescoring these...
+2021-07-26 10:33:53 WARNING  989 predictions to compute total WER on...
+2021-07-26 10:33:53 WARNING  WER: 34.411125100148794%
+weight 1.5
+2021-07-26 10:33:56.959245: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-26 10:33:58 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-26 10:34:07 WARNING  989 shared keys found, rescoring these...
+2021-07-26 10:34:15 WARNING  989 predictions to compute total WER on...
+2021-07-26 10:34:15 WARNING  WER: 34.75449238869177%

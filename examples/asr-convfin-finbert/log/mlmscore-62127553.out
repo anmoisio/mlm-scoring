@@ -1,0 +1,129 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-40000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 20:38:31 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 20:38:37 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 20:38:37 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 20:39:20 WARNING  # of input sequences: 541
+2021-08-10 20:39:20 WARNING  # of hypotheses: 48503
+2021-08-10 20:39:36 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 20:40:08 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 20:40:37 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 20:41:08 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 20:41:37 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 20:42:03 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 20:42:32 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 20:42:59 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 20:43:28 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 20:43:56 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 20:44:24 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 20:44:53 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 20:45:21 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 20:45:50 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 20:46:18 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 20:46:46 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 20:47:15 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 20:47:43 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 20:48:12 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 20:48:41 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 20:49:12 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 20:49:43 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 20:49:49 WARNING  # words: 579079
+2021-08-10 20:49:49 WARNING  longest sentence: 86
+2021-08-10 20:49:49 WARNING  # tokens: 749320
+2021-08-10 20:49:49 WARNING  Token-level (P)PPL: 139.90783706181136
+2021-08-10 20:49:49 WARNING  Word-normalized (P)PPL: 597.9833897558199
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-60000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 20:49:59 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 20:50:04 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 20:50:04 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 20:50:07 WARNING  # of input sequences: 541
+2021-08-10 20:50:07 WARNING  # of hypotheses: 48503
+2021-08-10 20:50:22 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 20:50:53 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 20:51:22 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 20:51:52 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 20:52:21 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 20:52:48 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 20:53:16 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 20:53:44 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 20:54:12 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 20:54:39 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 20:55:08 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 20:55:36 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 20:56:04 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 20:56:33 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 20:57:01 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 20:57:29 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 20:57:58 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 20:58:26 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 20:58:54 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 20:59:23 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 20:59:54 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 21:00:25 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 21:00:31 WARNING  # words: 579079
+2021-08-10 21:00:31 WARNING  longest sentence: 86
+2021-08-10 21:00:31 WARNING  # tokens: 749320
+2021-08-10 21:00:31 WARNING  Token-level (P)PPL: 131.4938308137265
+2021-08-10 21:00:31 WARNING  Word-normalized (P)PPL: 551.8657723825571
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-82000.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 21:00:35 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 21:00:40 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 21:00:40 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 21:00:43 WARNING  # of input sequences: 541
+2021-08-10 21:00:43 WARNING  # of hypotheses: 48503
+2021-08-10 21:00:59 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 21:01:30 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 21:01:59 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 21:02:29 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 21:02:58 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 21:03:25 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 21:03:53 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 21:04:21 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 21:04:49 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 21:05:16 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 21:05:45 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 21:06:13 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 21:06:41 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 21:07:10 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 21:07:38 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 21:08:06 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 21:08:35 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 21:09:02 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 21:09:31 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 21:10:00 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 21:10:31 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 21:11:02 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 21:11:08 WARNING  # words: 579079
+2021-08-10 21:11:08 WARNING  longest sentence: 86
+2021-08-10 21:11:08 WARNING  # tokens: 749320
+2021-08-10 21:11:08 WARNING  Token-level (P)PPL: 124.79474990052687
+2021-08-10 21:11:08 WARNING  Word-normalized (P)PPL: 515.7607093400761

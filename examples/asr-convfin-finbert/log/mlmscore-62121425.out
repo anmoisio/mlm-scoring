@@ -1,0 +1,1080 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:27:54 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:01 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:04 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:07 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:10 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:13 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:17 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+
+Currently Loaded Modules:
+  1) cuDNN/7-CUDA-9.0.176
+  2) miniconda/4.9.2
+  3) GCCcore/6.4.0                              (H)
+  4) binutils/2.28-GCCcore-6.4.0
+  5) GCC/6.4.0-2.28                             (H)
+  6) openfst/1.6.6-GCC-6.4.0
+  7) OpenBLAS/0.2.20-GCC-6.4.0-2.28             (H)
+  8) CUDA/9.0.176
+  9) CUB/1.8.0
+ 10) sctk/2.4.10
+ 11) sph2pipe/2.5
+ 12) kaldi-2020/5968b4c-GCC-6.4.0-2.28-OPENBLAS
+
+  Where:
+   H:  Hidden Module
+
+ 
+
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+WER output file scored/rescored_lstm_lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_bert-base-finnish-cased-v1-finetuned-web-dsp-checkpoint-40000.combined.ac0.01.1-wer.txt exists, not calculating WER
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:22 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:25 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:28 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:31 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:34 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:37 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:41 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+
+Currently Loaded Modules:
+  1) cuDNN/7-CUDA-9.0.176
+  2) miniconda/4.9.2
+  3) GCCcore/6.4.0                              (H)
+  4) binutils/2.28-GCCcore-6.4.0
+  5) GCC/6.4.0-2.28                             (H)
+  6) openfst/1.6.6-GCC-6.4.0
+  7) OpenBLAS/0.2.20-GCC-6.4.0-2.28             (H)
+  8) CUDA/9.0.176
+  9) CUB/1.8.0
+ 10) sctk/2.4.10
+ 11) sph2pipe/2.5
+ 12) kaldi-2020/5968b4c-GCC-6.4.0-2.28-OPENBLAS
+
+  Where:
+   H:  Hidden Module
+
+ 
+
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:45 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:48 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:51 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:55 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:28:58 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:29:01 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 18:29:04 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+
+Currently Loaded Modules:
+  1) cuDNN/7-CUDA-9.0.176
+  2) miniconda/4.9.2
+  3) GCCcore/6.4.0                              (H)
+  4) binutils/2.28-GCCcore-6.4.0
+  5) GCC/6.4.0-2.28                             (H)
+  6) openfst/1.6.6-GCC-6.4.0
+  7) OpenBLAS/0.2.20-GCC-6.4.0-2.28             (H)
+  8) CUDA/9.0.176
+  9) CUB/1.8.0
+ 10) sctk/2.4.10
+ 11) sph2pipe/2.5
+ 12) kaldi-2020/5968b4c-GCC-6.4.0-2.28-OPENBLAS
+
+  Where:
+   H:  Hidden Module
+
+ 
+
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/keskustelu2020/scripts/convert-nbest-mlm2kaldi.py", line 17, in <module>
+    nbest_dict = json.load(f)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+compute-wer --text --mode=present ark:/scratch/work/moisioa3/keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/decode_eval_morph_nosp_4-gram/scoring_kaldi/test_filt.txt ark,p: 

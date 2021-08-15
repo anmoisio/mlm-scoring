@@ -1,0 +1,32 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40
+lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft
+weight 0.5
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm rescore [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                   [--weights WEIGHTS] [--weight WEIGHT] [--ref-file REF_FILE]
+                   [--ln LN] [--ln-type {gnmt,length}]
+                   file_am file_lm
+mlm rescore: error: argument file_am: can't open '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json'
+weight 1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm rescore [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                   [--weights WEIGHTS] [--weight WEIGHT] [--ref-file REF_FILE]
+                   [--ln LN] [--ln-type {gnmt,length}]
+                   file_am file_lm
+mlm rescore: error: argument file_am: can't open '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json'
+weight 1.5
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm rescore [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                   [--weights WEIGHTS] [--weight WEIGHT] [--ref-file REF_FILE]
+                   [--ln LN] [--ln-type {gnmt,length}]
+                   file_am file_lm
+mlm rescore: error: argument file_am: can't open '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json': [Errno 2] No such file or directory: '/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram_finbert_ft/ac_combined.ac_scale0.1.json'

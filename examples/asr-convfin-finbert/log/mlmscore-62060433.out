@@ -1,0 +1,64 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-05 14:45:09 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-1000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-05 14:45:15 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-05 14:45:15 WARNING  Language was set but this model does not use language embeddings!
+2021-08-05 14:45:59 WARNING  # of input sequences: 541
+2021-08-05 14:45:59 WARNING  # of hypotheses: 27211
+2021-08-05 14:46:05 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-05 14:46:26 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-05 14:46:43 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-05 14:47:01 INFO     37707 sents of 409984, batch 60 of 235
+2021-08-05 14:47:19 INFO     58136 sents of 409984, batch 80 of 235
+2021-08-05 14:47:37 INFO     83080 sents of 409984, batch 100 of 235
+2021-08-05 14:47:56 INFO     114460 sents of 409984, batch 120 of 235
+2021-08-05 14:48:13 INFO     147353 sents of 409984, batch 140 of 235
+2021-08-05 14:48:32 INFO     192553 sents of 409984, batch 160 of 235
+2021-08-05 14:48:51 INFO     237753 sents of 409984, batch 180 of 235
+2021-08-05 14:49:10 INFO     282953 sents of 409984, batch 200 of 235
+2021-08-05 14:49:31 INFO     351137 sents of 409984, batch 220 of 235
+2021-08-05 14:49:45 WARNING  # words: 315485
+2021-08-05 14:49:45 WARNING  longest sentence: 85
+2021-08-05 14:49:45 WARNING  # tokens: 409984
+2021-08-05 14:49:46 WARNING  Token-level (P)PPL: 125.39798823157973
+2021-08-05 14:49:46 WARNING  Word-normalized (P)PPL: 533.0934769725403
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-05 14:49:52 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-10000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-05 14:49:57 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-05 14:49:57 WARNING  Language was set but this model does not use language embeddings!
+2021-08-05 14:50:00 WARNING  # of input sequences: 541
+2021-08-05 14:50:00 WARNING  # of hypotheses: 27211
+2021-08-05 14:50:07 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-05 14:50:26 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-05 14:50:43 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-05 14:51:01 INFO     37707 sents of 409984, batch 60 of 235
+2021-08-05 14:51:19 INFO     58136 sents of 409984, batch 80 of 235
+2021-08-05 14:51:37 INFO     83080 sents of 409984, batch 100 of 235
+2021-08-05 14:51:56 INFO     114460 sents of 409984, batch 120 of 235
+2021-08-05 14:52:13 INFO     147353 sents of 409984, batch 140 of 235
+2021-08-05 14:52:32 INFO     192553 sents of 409984, batch 160 of 235
+2021-08-05 14:52:51 INFO     237753 sents of 409984, batch 180 of 235
+2021-08-05 14:53:11 INFO     282953 sents of 409984, batch 200 of 235
+2021-08-05 14:53:31 INFO     351137 sents of 409984, batch 220 of 235
+2021-08-05 14:53:46 WARNING  # words: 315485
+2021-08-05 14:53:46 WARNING  longest sentence: 85
+2021-08-05 14:53:46 WARNING  # tokens: 409984
+2021-08-05 14:53:46 WARNING  Token-level (P)PPL: 99.79107074928967
+2021-08-05 14:53:46 WARNING  Word-normalized (P)PPL: 396.17847904690706

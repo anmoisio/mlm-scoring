@@ -1,0 +1,18 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-40000.combined.ac0.1.json
+/var/spool/slurmd/job62127154/slurm_script: line 66: scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-40000.combined.ac0.1.json: No such file or directory
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-60000.combined.ac0.1.json
+/var/spool/slurmd/job62127154/slurm_script: line 66: scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-60000.combined.ac0.1.json: No such file or directory
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4gram
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-82000.combined.ac0.1.json
+/var/spool/slurmd/job62127154/slurm_script: line 66: scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4gram/100best_eval_finbert_ft_cased_web-dsp-checkpoint-82000.combined.ac0.1.json: No such file or directory

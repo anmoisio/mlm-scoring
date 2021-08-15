@@ -1,0 +1,879 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_cased.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 21:40:56 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-10 21:41:03 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 21:41:03 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 21:41:44 WARNING  # of input sequences: 541
+2021-08-10 21:41:44 WARNING  # of hypotheses: 48503
+2021-08-10 21:42:00 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 21:43:56 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 21:45:47 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 21:47:42 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 21:49:31 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 21:51:12 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 21:52:58 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 21:54:41 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 21:56:29 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 21:58:10 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 21:59:57 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 22:01:43 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 22:03:27 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 22:05:15 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 22:06:59 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 22:08:45 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 22:10:32 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 22:12:14 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 22:14:02 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 22:15:50 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 22:17:46 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 22:19:42 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 22:20:01 WARNING  # words: 579079
+2021-08-10 22:20:01 WARNING  longest sentence: 86
+2021-08-10 22:20:01 WARNING  # tokens: 749320
+2021-08-10 22:20:01 WARNING  Token-level (P)PPL: 380.3754850672626
+2021-08-10 22:20:01 WARNING  Word-normalized (P)PPL: 2181.5157212197228
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:07 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:10 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:14 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:17 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:20 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:23 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:26 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_cased.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:20:30 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-10 22:20:36 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 22:20:36 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 22:20:38 WARNING  # of input sequences: 541
+2021-08-10 22:20:38 WARNING  # of hypotheses: 48503
+2021-08-10 22:20:54 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 22:22:49 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 22:24:40 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 22:26:35 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 22:28:24 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 22:30:05 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 22:31:51 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 22:33:34 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 22:35:22 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 22:37:04 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 22:38:50 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 22:40:37 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 22:42:20 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 22:44:08 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 22:45:53 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 22:47:39 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 22:49:26 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 22:51:08 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 22:52:55 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 22:54:43 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 22:56:39 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 22:58:35 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 22:58:54 WARNING  # words: 579079
+2021-08-10 22:58:54 WARNING  longest sentence: 86
+2021-08-10 22:58:54 WARNING  # tokens: 749320
+2021-08-10 22:58:54 WARNING  Token-level (P)PPL: 380.3754850672626
+2021-08-10 22:58:54 WARNING  Word-normalized (P)PPL: 2181.5157212197228
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:05 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:08 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:12 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:15 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:18 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:22 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:25 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_cased.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 22:59:28 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-10 22:59:34 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 22:59:34 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 22:59:55 WARNING  # of input sequences: 541
+2021-08-10 22:59:55 WARNING  # of hypotheses: 48503
+2021-08-10 23:00:10 INFO     FixedBucketSampler:
+  sample_num=749320, batch_num=424
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[202445, 286217, 122262, 43053, 35379, 9865, 21725, 16084, 1444, 10846]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 23:02:06 INFO     10000 sents of 749320, batch 20 of 424
+2021-08-10 23:03:56 INFO     21590 sents of 749320, batch 40 of 424
+2021-08-10 23:05:52 INFO     34728 sents of 749320, batch 60 of 424
+2021-08-10 23:07:41 INFO     48848 sents of 749320, batch 80 of 424
+2021-08-10 23:09:22 INFO     64834 sents of 749320, batch 100 of 424
+2021-08-10 23:11:07 INFO     84314 sents of 749320, batch 120 of 424
+2021-08-10 23:12:51 INFO     104959 sents of 749320, batch 140 of 424
+2021-08-10 23:14:39 INFO     128999 sents of 749320, batch 160 of 424
+2021-08-10 23:16:20 INFO     157224 sents of 749320, batch 180 of 424
+2021-08-10 23:18:07 INFO     188604 sents of 749320, batch 200 of 424
+2021-08-10 23:19:53 INFO     219984 sents of 749320, batch 220 of 424
+2021-08-10 23:21:37 INFO     251364 sents of 749320, batch 240 of 424
+2021-08-10 23:23:25 INFO     292298 sents of 749320, batch 260 of 424
+2021-08-10 23:25:10 INFO     337498 sents of 749320, batch 280 of 424
+2021-08-10 23:26:55 INFO     382698 sents of 749320, batch 300 of 424
+2021-08-10 23:28:43 INFO     427898 sents of 749320, batch 320 of 424
+2021-08-10 23:30:25 INFO     473098 sents of 749320, batch 340 of 424
+2021-08-10 23:32:12 INFO     518298 sents of 749320, batch 360 of 424
+2021-08-10 23:34:00 INFO     575120 sents of 749320, batch 380 of 424
+2021-08-10 23:35:56 INFO     655820 sents of 749320, batch 400 of 424
+2021-08-10 23:37:52 INFO     736520 sents of 749320, batch 420 of 424
+2021-08-10 23:38:11 WARNING  # words: 579079
+2021-08-10 23:38:11 WARNING  longest sentence: 86
+2021-08-10 23:38:11 WARNING  # tokens: 749320
+2021-08-10 23:38:11 WARNING  Token-level (P)PPL: 380.3754850672626
+2021-08-10 23:38:11 WARNING  Word-normalized (P)PPL: 2181.5157212197228
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring 
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:19 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:22 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:26 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:29 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:32 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:35 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 23:38:38 WARNING  Model '' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 359, in get_config_dict
+    raise EnvironmentError
+OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in cmd_rescore
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 351, in <listcomp>
+    pretrained_tup_list = [get_pretrained([mx.cpu(0)], model) for model in model_list]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 146, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for ''. Make sure that:
+
+- '' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '' is the correct path to a directory containing a config.json file
+
+

@@ -1,0 +1,50 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_momaf-movies-with-sub_word_web_dsp_os_nosp
+scoring 100-best list using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-opensubtitles_all/checkpoint-1000
+write output to scored/tdnn7q_sp_ensemble_vc_word_web_dsp_os_nosp/100best_momaf-movies-with-sub_finbert_ft_cased_opensubtitles_all-checkpoint-1000.combined.ac0.083.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-14 16:34:53 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-opensubtitles_all/checkpoint-1000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-14 16:34:59 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-14 16:34:59 WARNING  Language was set but this model does not use language embeddings!
+2021-08-14 16:35:44 WARNING  # of input sequences: 11517
+2021-08-14 16:35:44 WARNING  # of hypotheses: 1080200
+2021-08-14 16:39:28 INFO     FixedBucketSampler:
+  sample_num=6327796, batch_num=5477
+  key=[12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+  cnt=[4710496, 782689, 460071, 225752, 92263, 36920, 10604, 6176, 2419, 406]
+  batch_size=[1250, 1071, 937, 833, 750, 681, 625, 576, 535, 500]
+2021-08-14 16:39:35 INFO     10876 sents of 6327796, batch 20 of 5477
+2021-08-14 16:39:41 INFO     23691 sents of 6327796, batch 40 of 5477
+2021-08-14 16:39:46 INFO     37311 sents of 6327796, batch 60 of 5477
+2021-08-14 16:39:51 INFO     50931 sents of 6327796, batch 80 of 5477
+2021-08-14 16:39:56 INFO     64775 sents of 6327796, batch 100 of 5477
+2021-08-14 16:40:01 INFO     79775 sents of 6327796, batch 120 of 5477
+2021-08-14 16:40:06 INFO     94775 sents of 6327796, batch 140 of 5477
+2021-08-14 16:40:11 INFO     109775 sents of 6327796, batch 160 of 5477
+2021-08-14 16:40:16 INFO     124775 sents of 6327796, batch 180 of 5477
+2021-08-14 16:40:21 INFO     139775 sents of 6327796, batch 200 of 5477
+2021-08-14 16:40:26 INFO     154619 sents of 6327796, batch 220 of 5477
+2021-08-14 16:40:31 INFO     171279 sents of 6327796, batch 240 of 5477
+2021-08-14 16:40:37 INFO     187939 sents of 6327796, batch 260 of 5477
+2021-08-14 16:40:42 INFO     204599 sents of 6327796, batch 280 of 5477
+2021-08-14 16:40:47 INFO     221259 sents of 6327796, batch 300 of 5477
+2021-08-14 16:40:52 INFO     237919 sents of 6327796, batch 320 of 5477
+2021-08-14 16:40:57 INFO     254579 sents of 6327796, batch 340 of 5477
+2021-08-14 16:41:03 INFO     271239 sents of 6327796, batch 360 of 5477
+2021-08-14 16:41:08 INFO     287899 sents of 6327796, batch 380 of 5477
+2021-08-14 16:41:13 INFO     304559 sents of 6327796, batch 400 of 5477
+2021-08-14 16:41:18 INFO     321219 sents of 6327796, batch 420 of 5477
+2021-08-14 16:41:23 INFO     337879 sents of 6327796, batch 440 of 5477
+2021-08-14 16:41:29 INFO     354539 sents of 6327796, batch 460 of 5477
+2021-08-14 16:41:34 INFO     371199 sents of 6327796, batch 480 of 5477
+2021-08-14 16:41:39 INFO     388595 sents of 6327796, batch 500 of 5477
+2021-08-14 16:41:44 INFO     407335 sents of 6327796, batch 520 of 5477
+2021-08-14 16:41:49 INFO     426075 sents of 6327796, batch 540 of 5477
+slurmstepd: error: *** JOB 62209109 ON dgx7 CANCELLED AT 2021-08-14T16:41:52 ***
+Job has already finished for job 62209109

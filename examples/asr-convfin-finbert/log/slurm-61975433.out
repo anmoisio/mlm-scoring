@@ -1,0 +1,10 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+Traceback (most recent call last):
+  File "mxnet_test.py", line 1, in <module>
+    import mxnet as mx
+ImportError: No module named mxnet

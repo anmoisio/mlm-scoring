@@ -1,0 +1,40 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+[10:33:35] src/base.cc:51: Upgrade advisory: this mxnet has been built against cuda library version 9000, which is older than the oldest version tested by CI (10000).  Set MXNET_CUDA_LIB_CHECKING=0 to quiet this warning.
+[[3. 3. 3.]
+ [3. 3. 3.]]
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+usage: mlm rescore [-h] [--gpus GPUS] [--max-utts MAX_UTTS] [--model MODEL]
+                   [--weights WEIGHTS] [--weight WEIGHT] [--ref-file REF_FILE]
+                   [--ln LN] [--ln-type {gnmt,length}]
+                   file_am file_lm
+
+positional arguments:
+  file_am               File with AM scores (.json = JSON)
+  file_lm               File(s) with LM scores (.json = JSON), delimited by
+                        commas
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --gpus GPUS           Comma-delimited list of GPUs to use (-1 is CPU)
+  --max-utts MAX_UTTS   maximum utterances to parse
+  --model MODEL         Model to (re)score - HuggingFace models: 'bert-*',
+                        'xlm-*' - GluonNLP models: ['bert-base-en-uncased',
+                        'bert-base-en-cased', 'roberta-base-en-cased', 'bert-
+                        large-en-uncased', 'bert-large-en-cased', 'roberta-
+                        large-en-cased', 'bert-base-en-uncased-owt', 'bert-
+                        base-multi-uncased', 'bert-base-multi-cased',
+                        'gpt2-117m-en-cased', 'gpt2-345m-en-cased']
+  --weights WEIGHTS     Model weights to load
+  --weight WEIGHT       AM score is (1-sum(weight)), LM scores are weights
+                        delimited by commas
+  --ref-file REF_FILE   Specify an alternative reference file to FILE_AM
+  --ln LN               apply GNMT normalization with this scale to each
+                        >>LM<< score
+  --ln-type {gnmt,length}
+                        type of normalization to apply

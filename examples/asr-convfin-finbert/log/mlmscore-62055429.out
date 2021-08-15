@@ -1,0 +1,7 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/var/spool/slurmd/job62055429/slurm_script: line 39: scored/tdnn7q_sp_ensemble2_morph_nosp_4-gram/theanolm-morph-42k/expt2-sampled-seq40/100best_eval_finbert_ft_cased_web-dsp.combined.ac0.1.json: No such file or directory

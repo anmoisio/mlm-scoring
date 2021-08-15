@@ -1,0 +1,314 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_momaf-movies-with-sub_word_web_dsp_os_nosp
+scoring 100-best list using TurkuNLP/bert-base-finnish-cased-v1
+write output to scored/tdnn7q_sp_ensemble_vc_word_web_dsp_os_nosp/100best_momaf-movies-with-sub_finbert_cased.combined.ac0.083.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-14 17:00:52 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-14 17:00:59 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-14 17:00:59 WARNING  Language was set but this model does not use language embeddings!
+2021-08-14 17:01:16 WARNING  # of input sequences: 11517
+2021-08-14 17:01:16 WARNING  # of hypotheses: 1080200
+2021-08-14 17:04:54 INFO     FixedBucketSampler:
+  sample_num=6327796, batch_num=5477
+  key=[12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
+  cnt=[4710496, 782689, 460071, 225752, 92263, 36920, 10604, 6176, 2419, 406]
+  batch_size=[1250, 1071, 937, 833, 750, 681, 625, 576, 535, 500]
+2021-08-14 17:05:00 INFO     10876 sents of 6327796, batch 20 of 5477
+2021-08-14 17:05:05 INFO     23691 sents of 6327796, batch 40 of 5477
+2021-08-14 17:05:10 INFO     37311 sents of 6327796, batch 60 of 5477
+2021-08-14 17:05:15 INFO     50931 sents of 6327796, batch 80 of 5477
+2021-08-14 17:05:20 INFO     64775 sents of 6327796, batch 100 of 5477
+2021-08-14 17:05:25 INFO     79775 sents of 6327796, batch 120 of 5477
+2021-08-14 17:05:30 INFO     94775 sents of 6327796, batch 140 of 5477
+2021-08-14 17:05:35 INFO     109775 sents of 6327796, batch 160 of 5477
+2021-08-14 17:05:40 INFO     124775 sents of 6327796, batch 180 of 5477
+2021-08-14 17:05:45 INFO     139775 sents of 6327796, batch 200 of 5477
+2021-08-14 17:05:49 INFO     154619 sents of 6327796, batch 220 of 5477
+2021-08-14 17:05:54 INFO     171279 sents of 6327796, batch 240 of 5477
+2021-08-14 17:05:59 INFO     187939 sents of 6327796, batch 260 of 5477
+2021-08-14 17:06:04 INFO     204599 sents of 6327796, batch 280 of 5477
+2021-08-14 17:06:09 INFO     221259 sents of 6327796, batch 300 of 5477
+2021-08-14 17:06:14 INFO     237919 sents of 6327796, batch 320 of 5477
+2021-08-14 17:06:19 INFO     254579 sents of 6327796, batch 340 of 5477
+2021-08-14 17:06:24 INFO     271239 sents of 6327796, batch 360 of 5477
+2021-08-14 17:06:30 INFO     287899 sents of 6327796, batch 380 of 5477
+2021-08-14 17:06:35 INFO     304559 sents of 6327796, batch 400 of 5477
+2021-08-14 17:06:40 INFO     321219 sents of 6327796, batch 420 of 5477
+2021-08-14 17:06:45 INFO     337879 sents of 6327796, batch 440 of 5477
+2021-08-14 17:06:50 INFO     354539 sents of 6327796, batch 460 of 5477
+2021-08-14 17:06:55 INFO     371199 sents of 6327796, batch 480 of 5477
+2021-08-14 17:06:59 INFO     388595 sents of 6327796, batch 500 of 5477
+2021-08-14 17:07:04 INFO     407335 sents of 6327796, batch 520 of 5477
+2021-08-14 17:07:09 INFO     426075 sents of 6327796, batch 540 of 5477
+2021-08-14 17:07:14 INFO     444815 sents of 6327796, batch 560 of 5477
+2021-08-14 17:07:19 INFO     463555 sents of 6327796, batch 580 of 5477
+2021-08-14 17:07:24 INFO     482295 sents of 6327796, batch 600 of 5477
+2021-08-14 17:07:29 INFO     501035 sents of 6327796, batch 620 of 5477
+2021-08-14 17:07:34 INFO     519775 sents of 6327796, batch 640 of 5477
+2021-08-14 17:07:39 INFO     538515 sents of 6327796, batch 660 of 5477
+2021-08-14 17:07:44 INFO     557255 sents of 6327796, batch 680 of 5477
+2021-08-14 17:07:49 INFO     575995 sents of 6327796, batch 700 of 5477
+2021-08-14 17:07:53 INFO     594735 sents of 6327796, batch 720 of 5477
+2021-08-14 17:07:58 INFO     613475 sents of 6327796, batch 740 of 5477
+2021-08-14 17:08:03 INFO     632215 sents of 6327796, batch 760 of 5477
+2021-08-14 17:08:08 INFO     650955 sents of 6327796, batch 780 of 5477
+2021-08-14 17:08:13 INFO     669695 sents of 6327796, batch 800 of 5477
+2021-08-14 17:08:18 INFO     688435 sents of 6327796, batch 820 of 5477
+2021-08-14 17:08:23 INFO     707175 sents of 6327796, batch 840 of 5477
+2021-08-14 17:08:28 INFO     725915 sents of 6327796, batch 860 of 5477
+2021-08-14 17:08:33 INFO     744655 sents of 6327796, batch 880 of 5477
+2021-08-14 17:08:38 INFO     763395 sents of 6327796, batch 900 of 5477
+2021-08-14 17:08:42 INFO     782135 sents of 6327796, batch 920 of 5477
+2021-08-14 17:08:47 INFO     800875 sents of 6327796, batch 940 of 5477
+2021-08-14 17:08:52 INFO     819615 sents of 6327796, batch 960 of 5477
+2021-08-14 17:08:57 INFO     837824 sents of 6327796, batch 980 of 5477
+2021-08-14 17:09:02 INFO     859244 sents of 6327796, batch 1000 of 5477
+2021-08-14 17:09:07 INFO     880664 sents of 6327796, batch 1020 of 5477
+2021-08-14 17:09:12 INFO     902084 sents of 6327796, batch 1040 of 5477
+2021-08-14 17:09:17 INFO     923504 sents of 6327796, batch 1060 of 5477
+2021-08-14 17:09:21 INFO     944924 sents of 6327796, batch 1080 of 5477
+2021-08-14 17:09:26 INFO     966344 sents of 6327796, batch 1100 of 5477
+2021-08-14 17:09:31 INFO     987764 sents of 6327796, batch 1120 of 5477
+2021-08-14 17:09:36 INFO     1009184 sents of 6327796, batch 1140 of 5477
+2021-08-14 17:09:41 INFO     1030604 sents of 6327796, batch 1160 of 5477
+2021-08-14 17:09:46 INFO     1052024 sents of 6327796, batch 1180 of 5477
+2021-08-14 17:09:51 INFO     1073444 sents of 6327796, batch 1200 of 5477
+2021-08-14 17:09:56 INFO     1094864 sents of 6327796, batch 1220 of 5477
+2021-08-14 17:10:01 INFO     1116284 sents of 6327796, batch 1240 of 5477
+2021-08-14 17:10:06 INFO     1137704 sents of 6327796, batch 1260 of 5477
+2021-08-14 17:10:11 INFO     1159124 sents of 6327796, batch 1280 of 5477
+2021-08-14 17:10:16 INFO     1180544 sents of 6327796, batch 1300 of 5477
+2021-08-14 17:10:20 INFO     1201964 sents of 6327796, batch 1320 of 5477
+2021-08-14 17:10:25 INFO     1223384 sents of 6327796, batch 1340 of 5477
+2021-08-14 17:10:30 INFO     1244804 sents of 6327796, batch 1360 of 5477
+2021-08-14 17:10:35 INFO     1266224 sents of 6327796, batch 1380 of 5477
+2021-08-14 17:10:40 INFO     1287644 sents of 6327796, batch 1400 of 5477
+2021-08-14 17:10:45 INFO     1309064 sents of 6327796, batch 1420 of 5477
+2021-08-14 17:10:50 INFO     1330484 sents of 6327796, batch 1440 of 5477
+2021-08-14 17:10:55 INFO     1351904 sents of 6327796, batch 1460 of 5477
+2021-08-14 17:11:00 INFO     1373324 sents of 6327796, batch 1480 of 5477
+2021-08-14 17:11:05 INFO     1394744 sents of 6327796, batch 1500 of 5477
+2021-08-14 17:11:10 INFO     1416164 sents of 6327796, batch 1520 of 5477
+2021-08-14 17:11:14 INFO     1437584 sents of 6327796, batch 1540 of 5477
+2021-08-14 17:11:19 INFO     1459004 sents of 6327796, batch 1560 of 5477
+2021-08-14 17:11:24 INFO     1480424 sents of 6327796, batch 1580 of 5477
+2021-08-14 17:11:29 INFO     1501844 sents of 6327796, batch 1600 of 5477
+2021-08-14 17:11:34 INFO     1523264 sents of 6327796, batch 1620 of 5477
+2021-08-14 17:11:39 INFO     1544684 sents of 6327796, batch 1640 of 5477
+2021-08-14 17:11:44 INFO     1566104 sents of 6327796, batch 1660 of 5477
+2021-08-14 17:11:49 INFO     1587524 sents of 6327796, batch 1680 of 5477
+2021-08-14 17:11:54 INFO     1608944 sents of 6327796, batch 1700 of 5477
+2021-08-14 17:11:59 INFO     1632300 sents of 6327796, batch 1720 of 5477
+2021-08-14 17:12:03 INFO     1657300 sents of 6327796, batch 1740 of 5477
+2021-08-14 17:12:08 INFO     1682300 sents of 6327796, batch 1760 of 5477
+2021-08-14 17:12:13 INFO     1707300 sents of 6327796, batch 1780 of 5477
+2021-08-14 17:12:18 INFO     1732300 sents of 6327796, batch 1800 of 5477
+2021-08-14 17:12:23 INFO     1757300 sents of 6327796, batch 1820 of 5477
+2021-08-14 17:12:27 INFO     1782300 sents of 6327796, batch 1840 of 5477
+2021-08-14 17:12:32 INFO     1807300 sents of 6327796, batch 1860 of 5477
+2021-08-14 17:12:37 INFO     1832300 sents of 6327796, batch 1880 of 5477
+2021-08-14 17:12:42 INFO     1857300 sents of 6327796, batch 1900 of 5477
+2021-08-14 17:12:47 INFO     1882300 sents of 6327796, batch 1920 of 5477
+2021-08-14 17:12:51 INFO     1907300 sents of 6327796, batch 1940 of 5477
+2021-08-14 17:12:56 INFO     1932300 sents of 6327796, batch 1960 of 5477
+2021-08-14 17:13:01 INFO     1957300 sents of 6327796, batch 1980 of 5477
+2021-08-14 17:13:06 INFO     1982300 sents of 6327796, batch 2000 of 5477
+2021-08-14 17:13:10 INFO     2007300 sents of 6327796, batch 2020 of 5477
+2021-08-14 17:13:15 INFO     2032300 sents of 6327796, batch 2040 of 5477
+2021-08-14 17:13:19 INFO     2057300 sents of 6327796, batch 2060 of 5477
+2021-08-14 17:13:24 INFO     2082300 sents of 6327796, batch 2080 of 5477
+2021-08-14 17:13:29 INFO     2107300 sents of 6327796, batch 2100 of 5477
+2021-08-14 17:13:34 INFO     2132300 sents of 6327796, batch 2120 of 5477
+2021-08-14 17:13:39 INFO     2157300 sents of 6327796, batch 2140 of 5477
+2021-08-14 17:13:43 INFO     2182300 sents of 6327796, batch 2160 of 5477
+2021-08-14 17:13:48 INFO     2207300 sents of 6327796, batch 2180 of 5477
+2021-08-14 17:13:53 INFO     2232300 sents of 6327796, batch 2200 of 5477
+2021-08-14 17:13:57 INFO     2257300 sents of 6327796, batch 2220 of 5477
+2021-08-14 17:14:02 INFO     2282300 sents of 6327796, batch 2240 of 5477
+2021-08-14 17:14:07 INFO     2307300 sents of 6327796, batch 2260 of 5477
+2021-08-14 17:14:12 INFO     2332300 sents of 6327796, batch 2280 of 5477
+2021-08-14 17:14:16 INFO     2357300 sents of 6327796, batch 2300 of 5477
+2021-08-14 17:14:21 INFO     2382300 sents of 6327796, batch 2320 of 5477
+2021-08-14 17:14:25 INFO     2407300 sents of 6327796, batch 2340 of 5477
+2021-08-14 17:14:30 INFO     2432300 sents of 6327796, batch 2360 of 5477
+2021-08-14 17:14:33 INFO     2457300 sents of 6327796, batch 2380 of 5477
+2021-08-14 17:14:37 INFO     2482300 sents of 6327796, batch 2400 of 5477
+2021-08-14 17:14:42 INFO     2507300 sents of 6327796, batch 2420 of 5477
+2021-08-14 17:14:46 INFO     2532300 sents of 6327796, batch 2440 of 5477
+2021-08-14 17:14:51 INFO     2557300 sents of 6327796, batch 2460 of 5477
+2021-08-14 17:14:55 INFO     2582300 sents of 6327796, batch 2480 of 5477
+2021-08-14 17:15:00 INFO     2607300 sents of 6327796, batch 2500 of 5477
+2021-08-14 17:15:04 INFO     2632300 sents of 6327796, batch 2520 of 5477
+2021-08-14 17:15:09 INFO     2657300 sents of 6327796, batch 2540 of 5477
+2021-08-14 17:15:13 INFO     2682300 sents of 6327796, batch 2560 of 5477
+2021-08-14 17:15:18 INFO     2707300 sents of 6327796, batch 2580 of 5477
+2021-08-14 17:15:22 INFO     2732300 sents of 6327796, batch 2600 of 5477
+2021-08-14 17:15:27 INFO     2757300 sents of 6327796, batch 2620 of 5477
+2021-08-14 17:15:32 INFO     2782300 sents of 6327796, batch 2640 of 5477
+2021-08-14 17:15:37 INFO     2807300 sents of 6327796, batch 2660 of 5477
+2021-08-14 17:15:41 INFO     2832300 sents of 6327796, batch 2680 of 5477
+2021-08-14 17:15:46 INFO     2857300 sents of 6327796, batch 2700 of 5477
+2021-08-14 17:15:51 INFO     2882300 sents of 6327796, batch 2720 of 5477
+2021-08-14 17:15:56 INFO     2907300 sents of 6327796, batch 2740 of 5477
+2021-08-14 17:16:01 INFO     2932300 sents of 6327796, batch 2760 of 5477
+2021-08-14 17:16:05 INFO     2957300 sents of 6327796, batch 2780 of 5477
+2021-08-14 17:16:10 INFO     2982300 sents of 6327796, batch 2800 of 5477
+2021-08-14 17:16:15 INFO     3007300 sents of 6327796, batch 2820 of 5477
+2021-08-14 17:16:20 INFO     3032300 sents of 6327796, batch 2840 of 5477
+2021-08-14 17:16:24 INFO     3057300 sents of 6327796, batch 2860 of 5477
+2021-08-14 17:16:29 INFO     3082300 sents of 6327796, batch 2880 of 5477
+2021-08-14 17:16:34 INFO     3107300 sents of 6327796, batch 2900 of 5477
+2021-08-14 17:16:39 INFO     3132300 sents of 6327796, batch 2920 of 5477
+2021-08-14 17:16:44 INFO     3157300 sents of 6327796, batch 2940 of 5477
+2021-08-14 17:16:49 INFO     3182300 sents of 6327796, batch 2960 of 5477
+2021-08-14 17:16:53 INFO     3207300 sents of 6327796, batch 2980 of 5477
+2021-08-14 17:16:58 INFO     3232300 sents of 6327796, batch 3000 of 5477
+2021-08-14 17:17:02 INFO     3257300 sents of 6327796, batch 3020 of 5477
+2021-08-14 17:17:07 INFO     3282300 sents of 6327796, batch 3040 of 5477
+2021-08-14 17:17:12 INFO     3307300 sents of 6327796, batch 3060 of 5477
+2021-08-14 17:17:16 INFO     3332300 sents of 6327796, batch 3080 of 5477
+2021-08-14 17:17:21 INFO     3357300 sents of 6327796, batch 3100 of 5477
+2021-08-14 17:17:26 INFO     3382300 sents of 6327796, batch 3120 of 5477
+2021-08-14 17:17:31 INFO     3407300 sents of 6327796, batch 3140 of 5477
+2021-08-14 17:17:36 INFO     3432300 sents of 6327796, batch 3160 of 5477
+2021-08-14 17:17:41 INFO     3457300 sents of 6327796, batch 3180 of 5477
+2021-08-14 17:17:45 INFO     3482300 sents of 6327796, batch 3200 of 5477
+2021-08-14 17:17:50 INFO     3507300 sents of 6327796, batch 3220 of 5477
+2021-08-14 17:17:55 INFO     3532300 sents of 6327796, batch 3240 of 5477
+2021-08-14 17:18:00 INFO     3557300 sents of 6327796, batch 3260 of 5477
+2021-08-14 17:18:05 INFO     3582300 sents of 6327796, batch 3280 of 5477
+2021-08-14 17:18:10 INFO     3607300 sents of 6327796, batch 3300 of 5477
+2021-08-14 17:18:15 INFO     3632300 sents of 6327796, batch 3320 of 5477
+2021-08-14 17:18:19 INFO     3657300 sents of 6327796, batch 3340 of 5477
+2021-08-14 17:18:24 INFO     3682300 sents of 6327796, batch 3360 of 5477
+2021-08-14 17:18:29 INFO     3707300 sents of 6327796, batch 3380 of 5477
+2021-08-14 17:18:34 INFO     3732300 sents of 6327796, batch 3400 of 5477
+2021-08-14 17:18:39 INFO     3757300 sents of 6327796, batch 3420 of 5477
+2021-08-14 17:18:44 INFO     3782300 sents of 6327796, batch 3440 of 5477
+2021-08-14 17:18:49 INFO     3807300 sents of 6327796, batch 3460 of 5477
+2021-08-14 17:18:54 INFO     3832300 sents of 6327796, batch 3480 of 5477
+2021-08-14 17:18:59 INFO     3857300 sents of 6327796, batch 3500 of 5477
+2021-08-14 17:19:03 INFO     3882300 sents of 6327796, batch 3520 of 5477
+2021-08-14 17:19:08 INFO     3907300 sents of 6327796, batch 3540 of 5477
+2021-08-14 17:19:13 INFO     3932300 sents of 6327796, batch 3560 of 5477
+2021-08-14 17:19:18 INFO     3957300 sents of 6327796, batch 3580 of 5477
+2021-08-14 17:19:23 INFO     3982300 sents of 6327796, batch 3600 of 5477
+2021-08-14 17:19:28 INFO     4007300 sents of 6327796, batch 3620 of 5477
+2021-08-14 17:19:33 INFO     4032300 sents of 6327796, batch 3640 of 5477
+2021-08-14 17:19:38 INFO     4057300 sents of 6327796, batch 3660 of 5477
+2021-08-14 17:19:43 INFO     4082300 sents of 6327796, batch 3680 of 5477
+2021-08-14 17:19:47 INFO     4107300 sents of 6327796, batch 3700 of 5477
+2021-08-14 17:19:52 INFO     4132300 sents of 6327796, batch 3720 of 5477
+2021-08-14 17:19:57 INFO     4157300 sents of 6327796, batch 3740 of 5477
+2021-08-14 17:20:02 INFO     4182300 sents of 6327796, batch 3760 of 5477
+2021-08-14 17:20:07 INFO     4207300 sents of 6327796, batch 3780 of 5477
+2021-08-14 17:20:12 INFO     4232300 sents of 6327796, batch 3800 of 5477
+2021-08-14 17:20:17 INFO     4257300 sents of 6327796, batch 3820 of 5477
+2021-08-14 17:20:21 INFO     4282300 sents of 6327796, batch 3840 of 5477
+2021-08-14 17:20:26 INFO     4307300 sents of 6327796, batch 3860 of 5477
+2021-08-14 17:20:31 INFO     4332300 sents of 6327796, batch 3880 of 5477
+2021-08-14 17:20:36 INFO     4357300 sents of 6327796, batch 3900 of 5477
+2021-08-14 17:20:41 INFO     4382300 sents of 6327796, batch 3920 of 5477
+2021-08-14 17:20:46 INFO     4407300 sents of 6327796, batch 3940 of 5477
+2021-08-14 17:20:51 INFO     4432300 sents of 6327796, batch 3960 of 5477
+2021-08-14 17:20:55 INFO     4457300 sents of 6327796, batch 3980 of 5477
+2021-08-14 17:21:00 INFO     4482300 sents of 6327796, batch 4000 of 5477
+2021-08-14 17:21:05 INFO     4507300 sents of 6327796, batch 4020 of 5477
+2021-08-14 17:21:10 INFO     4532300 sents of 6327796, batch 4040 of 5477
+2021-08-14 17:21:15 INFO     4557300 sents of 6327796, batch 4060 of 5477
+2021-08-14 17:21:19 INFO     4582300 sents of 6327796, batch 4080 of 5477
+2021-08-14 17:21:24 INFO     4607300 sents of 6327796, batch 4100 of 5477
+2021-08-14 17:21:29 INFO     4632300 sents of 6327796, batch 4120 of 5477
+2021-08-14 17:21:34 INFO     4657300 sents of 6327796, batch 4140 of 5477
+2021-08-14 17:21:38 INFO     4682300 sents of 6327796, batch 4160 of 5477
+2021-08-14 17:21:43 INFO     4707300 sents of 6327796, batch 4180 of 5477
+2021-08-14 17:21:48 INFO     4732300 sents of 6327796, batch 4200 of 5477
+2021-08-14 17:21:52 INFO     4757300 sents of 6327796, batch 4220 of 5477
+2021-08-14 17:21:57 INFO     4782300 sents of 6327796, batch 4240 of 5477
+2021-08-14 17:22:02 INFO     4807300 sents of 6327796, batch 4260 of 5477
+2021-08-14 17:22:07 INFO     4832300 sents of 6327796, batch 4280 of 5477
+2021-08-14 17:22:11 INFO     4857300 sents of 6327796, batch 4300 of 5477
+2021-08-14 17:22:16 INFO     4882300 sents of 6327796, batch 4320 of 5477
+2021-08-14 17:22:21 INFO     4907300 sents of 6327796, batch 4340 of 5477
+2021-08-14 17:22:26 INFO     4932300 sents of 6327796, batch 4360 of 5477
+2021-08-14 17:22:31 INFO     4957300 sents of 6327796, batch 4380 of 5477
+2021-08-14 17:22:35 INFO     4982300 sents of 6327796, batch 4400 of 5477
+2021-08-14 17:22:40 INFO     5007300 sents of 6327796, batch 4420 of 5477
+2021-08-14 17:22:45 INFO     5032300 sents of 6327796, batch 4440 of 5477
+2021-08-14 17:22:50 INFO     5057300 sents of 6327796, batch 4460 of 5477
+2021-08-14 17:22:54 INFO     5082300 sents of 6327796, batch 4480 of 5477
+2021-08-14 17:22:59 INFO     5107300 sents of 6327796, batch 4500 of 5477
+2021-08-14 17:23:03 INFO     5132300 sents of 6327796, batch 4520 of 5477
+2021-08-14 17:23:08 INFO     5157300 sents of 6327796, batch 4540 of 5477
+2021-08-14 17:23:13 INFO     5182300 sents of 6327796, batch 4560 of 5477
+2021-08-14 17:23:17 INFO     5207300 sents of 6327796, batch 4580 of 5477
+2021-08-14 17:23:22 INFO     5232300 sents of 6327796, batch 4600 of 5477
+2021-08-14 17:23:27 INFO     5257300 sents of 6327796, batch 4620 of 5477
+2021-08-14 17:23:32 INFO     5282300 sents of 6327796, batch 4640 of 5477
+2021-08-14 17:23:36 INFO     5307300 sents of 6327796, batch 4660 of 5477
+2021-08-14 17:23:41 INFO     5332300 sents of 6327796, batch 4680 of 5477
+2021-08-14 17:23:46 INFO     5357300 sents of 6327796, batch 4700 of 5477
+2021-08-14 17:23:50 INFO     5382300 sents of 6327796, batch 4720 of 5477
+2021-08-14 17:23:55 INFO     5407300 sents of 6327796, batch 4740 of 5477
+2021-08-14 17:24:00 INFO     5432300 sents of 6327796, batch 4760 of 5477
+2021-08-14 17:24:05 INFO     5457300 sents of 6327796, batch 4780 of 5477
+2021-08-14 17:24:09 INFO     5482300 sents of 6327796, batch 4800 of 5477
+2021-08-14 17:24:14 INFO     5507300 sents of 6327796, batch 4820 of 5477
+2021-08-14 17:24:19 INFO     5532300 sents of 6327796, batch 4840 of 5477
+2021-08-14 17:24:23 INFO     5557300 sents of 6327796, batch 4860 of 5477
+2021-08-14 17:24:28 INFO     5582300 sents of 6327796, batch 4880 of 5477
+2021-08-14 17:24:33 INFO     5607300 sents of 6327796, batch 4900 of 5477
+2021-08-14 17:24:38 INFO     5632300 sents of 6327796, batch 4920 of 5477
+2021-08-14 17:24:42 INFO     5657300 sents of 6327796, batch 4940 of 5477
+2021-08-14 17:24:47 INFO     5682300 sents of 6327796, batch 4960 of 5477
+2021-08-14 17:24:52 INFO     5707300 sents of 6327796, batch 4980 of 5477
+2021-08-14 17:24:57 INFO     5732300 sents of 6327796, batch 5000 of 5477
+2021-08-14 17:25:02 INFO     5757300 sents of 6327796, batch 5020 of 5477
+2021-08-14 17:25:07 INFO     5782300 sents of 6327796, batch 5040 of 5477
+2021-08-14 17:25:12 INFO     5807300 sents of 6327796, batch 5060 of 5477
+2021-08-14 17:25:16 INFO     5832300 sents of 6327796, batch 5080 of 5477
+2021-08-14 17:25:21 INFO     5857300 sents of 6327796, batch 5100 of 5477
+2021-08-14 17:25:26 INFO     5882300 sents of 6327796, batch 5120 of 5477
+2021-08-14 17:25:31 INFO     5907300 sents of 6327796, batch 5140 of 5477
+2021-08-14 17:25:36 INFO     5932300 sents of 6327796, batch 5160 of 5477
+2021-08-14 17:25:41 INFO     5957300 sents of 6327796, batch 5180 of 5477
+2021-08-14 17:25:46 INFO     5982300 sents of 6327796, batch 5200 of 5477
+2021-08-14 17:25:51 INFO     6007300 sents of 6327796, batch 5220 of 5477
+2021-08-14 17:25:55 INFO     6032300 sents of 6327796, batch 5240 of 5477
+2021-08-14 17:26:00 INFO     6057300 sents of 6327796, batch 5260 of 5477
+2021-08-14 17:26:05 INFO     6082300 sents of 6327796, batch 5280 of 5477
+2021-08-14 17:26:10 INFO     6107300 sents of 6327796, batch 5300 of 5477
+2021-08-14 17:26:15 INFO     6132300 sents of 6327796, batch 5320 of 5477
+2021-08-14 17:26:20 INFO     6157300 sents of 6327796, batch 5340 of 5477
+2021-08-14 17:26:25 INFO     6182300 sents of 6327796, batch 5360 of 5477
+2021-08-14 17:26:30 INFO     6207300 sents of 6327796, batch 5380 of 5477
+2021-08-14 17:26:35 INFO     6232300 sents of 6327796, batch 5400 of 5477
+2021-08-14 17:26:39 INFO     6257300 sents of 6327796, batch 5420 of 5477
+2021-08-14 17:26:44 INFO     6282300 sents of 6327796, batch 5440 of 5477
+2021-08-14 17:26:49 INFO     6307300 sents of 6327796, batch 5460 of 5477
+2021-08-14 17:26:59 WARNING  # words: 4987418
+2021-08-14 17:26:59 WARNING  longest sentence: 19
+2021-08-14 17:26:59 WARNING  # tokens: 6327796
+2021-08-14 17:26:59 WARNING  Token-level (P)PPL: 2287.6235550233764
+2021-08-14 17:26:59 WARNING  Word-normalized (P)PPL: 18290.496729844013
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_momaf-movies-with-sub_word_web_dsp_os_nosp
+rescoring TurkuNLP/bert-base-finnish-cased-v1
+ac scale 0.083
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-14 17:27:14 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-14 17:27:25 WARNING  11517 shared keys found, rescoring these...
+2021-08-14 17:27:36 WARNING  11517 predictions to compute total WER on...
+2021-08-14 17:27:36 WARNING  WER: 78.53918115953272%

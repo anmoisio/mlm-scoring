@@ -1,0 +1,256 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring TurkuNLP/bert-base-finnish-uncased-v1
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:39:04 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+2021-08-11 09:39:04 INFO     Lock 47208308449136 acquired on /home/moisioa3/.cache/torch/transformers/eabfedadc4804cbadcf0010cb1028e4147b81530212feaf502e1bd0f0e233ae6.ad94e830590ce6737efe2d9c68642a62fe6966540732503245b6c17a541a1919.lock
+Downloading:   0%|          | 0.00/433 [00:00<?, ?B/s]Downloading: 100%|██████████| 433/433 [00:00<00:00, 347kB/s]
+2021-08-11 09:39:05 INFO     Lock 47208308449136 released on /home/moisioa3/.cache/torch/transformers/eabfedadc4804cbadcf0010cb1028e4147b81530212feaf502e1bd0f0e233ae6.ad94e830590ce6737efe2d9c68642a62fe6966540732503245b6c17a541a1919.lock
+2021-08-11 09:39:05 INFO     Lock 47208308521664 acquired on /home/moisioa3/.cache/torch/transformers/78af50299bd56e123757b8ac3d8080dc35e9363efb19edac6c0c1a3d4e5323bc.9f043688006999c0955d5d037cd66f9b78582c578cbb4a5eabf3cfcf07ad320e.lock
+Downloading:   0%|          | 0.00/501M [00:00<?, ?B/s]Downloading:   0%|          | 34.8k/501M [00:00<35:54, 232kB/s]Downloading:   0%|          | 191k/501M [00:00<10:14, 815kB/s] Downloading:   0%|          | 435k/501M [00:00<05:55, 1.41MB/s]Downloading:   0%|          | 1.71M/501M [00:00<01:38, 5.05MB/s]Downloading:   1%|          | 3.63M/501M [00:00<00:52, 9.38MB/s]Downloading:   2%|▏         | 7.62M/501M [00:00<00:26, 18.8MB/s]Downloading:   2%|▏         | 11.3M/501M [00:00<00:20, 23.5MB/s]Downloading:   3%|▎         | 14.8M/501M [00:00<00:18, 26.8MB/s]Downloading:   4%|▍         | 18.9M/501M [00:01<00:15, 30.5MB/s]Downloading:   4%|▍         | 22.0M/501M [00:01<00:16, 29.6MB/s]Downloading:   5%|▌         | 26.2M/501M [00:01<00:14, 33.0MB/s]Downloading:   6%|▌         | 29.5M/501M [00:01<00:15, 31.1MB/s]Downloading:   7%|▋         | 33.6M/501M [00:01<00:14, 33.3MB/s]Downloading:   7%|▋         | 37.1M/501M [00:01<00:13, 33.1MB/s]Downloading:   8%|▊         | 40.6M/501M [00:01<00:13, 33.6MB/s]Downloading:   9%|▉         | 44.7M/501M [00:01<00:12, 35.4MB/s]Downloading:  10%|▉         | 48.3M/501M [00:01<00:13, 33.3MB/s]Downloading:  10%|█         | 52.5M/501M [00:01<00:12, 35.2MB/s]Downloading:  11%|█         | 56.0M/501M [00:02<00:13, 33.4MB/s]Downloading:  12%|█▏        | 59.8M/501M [00:02<00:12, 34.8MB/s]Downloading:  13%|█▎        | 63.4M/501M [00:02<00:13, 32.8MB/s]Downloading:  13%|█▎        | 67.1M/501M [00:02<00:12, 34.0MB/s]Downloading:  14%|█▍        | 70.6M/501M [00:02<00:12, 33.8MB/s]Downloading:  15%|█▍        | 74.0M/501M [00:02<00:12, 33.9MB/s]Downloading:  16%|█▌        | 78.2M/501M [00:02<00:11, 35.4MB/s]Downloading:  16%|█▋        | 81.7M/501M [00:02<00:12, 33.6MB/s]Downloading:  17%|█▋        | 85.9M/501M [00:02<00:11, 35.3MB/s]Downloading:  18%|█▊        | 89.5M/501M [00:03<00:12, 33.5MB/s]Downloading:  19%|█▊        | 93.6M/501M [00:03<00:11, 35.4MB/s]Downloading:  19%|█▉        | 97.2M/501M [00:03<00:12, 33.1MB/s]Downloading:  20%|██        | 101M/501M [00:03<00:12, 33.3MB/s] Downloading:  21%|██        | 104M/501M [00:03<00:11, 33.5MB/s]Downloading:  21%|██▏       | 107M/501M [00:03<00:11, 33.6MB/s]Downloading:  22%|██▏       | 112M/501M [00:03<00:11, 34.9MB/s]Downloading:  23%|██▎       | 115M/501M [00:03<00:11, 33.9MB/s]Downloading:  24%|██▍       | 119M/501M [00:03<00:10, 35.6MB/s]Downloading:  25%|██▍       | 123M/501M [00:04<00:11, 33.3MB/s]Downloading:  25%|██▌       | 127M/501M [00:04<00:10, 35.0MB/s]Downloading:  26%|██▌       | 130M/501M [00:04<00:11, 32.3MB/s]Downloading:  27%|██▋       | 134M/501M [00:04<00:10, 34.4MB/s]Downloading:  28%|██▊       | 138M/501M [00:04<00:10, 33.4MB/s]Downloading:  28%|██▊       | 142M/501M [00:04<00:10, 35.2MB/s]Downloading:  29%|██▉       | 145M/501M [00:04<00:10, 35.3MB/s]Downloading:  30%|██▉       | 149M/501M [00:04<00:10, 34.1MB/s]Downloading:  31%|███       | 153M/501M [00:04<00:09, 35.7MB/s]Downloading:  31%|███▏      | 157M/501M [00:05<00:10, 33.5MB/s]Downloading:  32%|███▏      | 161M/501M [00:05<00:09, 35.8MB/s]Downloading:  33%|███▎      | 164M/501M [00:05<00:10, 33.4MB/s]Downloading:  34%|███▎      | 168M/501M [00:05<00:09, 35.6MB/s]Downloading:  34%|███▍      | 172M/501M [00:05<00:10, 32.6MB/s]Downloading:  35%|███▌      | 176M/501M [00:05<00:09, 34.8MB/s]Downloading:  36%|███▌      | 180M/501M [00:05<00:09, 33.6MB/s]Downloading:  37%|███▋      | 184M/501M [00:05<00:08, 35.7MB/s]Downloading:  37%|███▋      | 188M/501M [00:05<00:09, 33.5MB/s]Downloading:  38%|███▊      | 192M/501M [00:06<00:08, 35.5MB/s]Downloading:  39%|███▉      | 195M/501M [00:06<00:09, 33.5MB/s]Downloading:  40%|███▉      | 199M/501M [00:06<00:08, 35.2MB/s]Downloading:  41%|████      | 203M/501M [00:06<00:08, 33.3MB/s]Downloading:  41%|████▏     | 207M/501M [00:06<00:08, 35.0MB/s]Downloading:  42%|████▏     | 211M/501M [00:06<00:08, 33.0MB/s]Downloading:  43%|████▎     | 215M/501M [00:06<00:08, 35.2MB/s]Downloading:  44%|████▎     | 218M/501M [00:06<00:08, 32.6MB/s]Downloading:  44%|████▍     | 223M/501M [00:06<00:07, 35.6MB/s]Downloading:  45%|████▌     | 226M/501M [00:07<00:08, 33.2MB/s]Downloading:  46%|████▌     | 231M/501M [00:07<00:07, 35.1MB/s]Downloading:  47%|████▋     | 234M/501M [00:07<00:07, 33.6MB/s]Downloading:  47%|████▋     | 238M/501M [00:07<00:07, 33.7MB/s]Downloading:  48%|████▊     | 241M/501M [00:07<00:07, 33.9MB/s]Downloading:  49%|████▉     | 244M/501M [00:07<00:07, 34.1MB/s]Downloading:  50%|████▉     | 248M/501M [00:07<00:07, 35.5MB/s]Downloading:  50%|█████     | 252M/501M [00:07<00:07, 33.0MB/s]Downloading:  51%|█████     | 256M/501M [00:07<00:06, 35.3MB/s]Downloading:  52%|█████▏    | 260M/501M [00:08<00:07, 33.4MB/s]Downloading:  53%|█████▎    | 264M/501M [00:08<00:06, 35.7MB/s]Downloading:  53%|█████▎    | 268M/501M [00:08<00:06, 33.4MB/s]Downloading:  54%|█████▍    | 271M/501M [00:08<00:06, 33.7MB/s]Downloading:  55%|█████▍    | 275M/501M [00:08<00:06, 34.0MB/s]Downloading:  56%|█████▌    | 278M/501M [00:08<00:06, 33.7MB/s]Downloading:  56%|█████▋    | 282M/501M [00:08<00:06, 35.1MB/s]Downloading:  57%|█████▋    | 285M/501M [00:08<00:06, 33.0MB/s]Downloading:  58%|█████▊    | 290M/501M [00:08<00:05, 35.4MB/s]Downloading:  59%|█████▊    | 293M/501M [00:09<00:06, 33.4MB/s]Downloading:  59%|█████▉    | 297M/501M [00:09<00:05, 35.4MB/s]Downloading:  60%|██████    | 301M/501M [00:09<00:05, 33.7MB/s]Downloading:  61%|██████    | 305M/501M [00:09<00:05, 35.7MB/s]Downloading:  62%|██████▏   | 309M/501M [00:09<00:05, 33.2MB/s]Downloading:  62%|██████▏   | 313M/501M [00:09<00:05, 35.1MB/s]Downloading:  63%|██████▎   | 316M/501M [00:09<00:05, 33.2MB/s]Downloading:  64%|██████▍   | 321M/501M [00:09<00:05, 35.0MB/s]Downloading:  65%|██████▍   | 324M/501M [00:09<00:05, 33.4MB/s]Downloading:  66%|██████▌   | 328M/501M [00:10<00:04, 35.5MB/s]Downloading:  66%|██████▋   | 332M/501M [00:10<00:05, 33.2MB/s]Downloading:  67%|██████▋   | 336M/501M [00:10<00:04, 35.5MB/s]Downloading:  68%|██████▊   | 340M/501M [00:10<00:04, 33.1MB/s]Downloading:  69%|██████▊   | 344M/501M [00:10<00:04, 35.5MB/s]Downloading:  69%|██████▉   | 347M/501M [00:10<00:04, 33.1MB/s]Downloading:  70%|███████   | 352M/501M [00:10<00:04, 35.0MB/s]Downloading:  71%|███████   | 355M/501M [00:10<00:04, 33.1MB/s]Downloading:  72%|███████▏  | 359M/501M [00:10<00:04, 34.8MB/s]Downloading:  72%|███████▏  | 363M/501M [00:11<00:04, 33.2MB/s]Downloading:  73%|███████▎  | 366M/501M [00:11<00:04, 33.2MB/s]Downloading:  74%|███████▍  | 370M/501M [00:11<00:03, 33.9MB/s]Downloading:  75%|███████▍  | 373M/501M [00:11<00:03, 33.6MB/s]Downloading:  75%|███████▌  | 377M/501M [00:11<00:03, 35.7MB/s]Downloading:  76%|███████▌  | 381M/501M [00:11<00:03, 33.8MB/s]Downloading:  77%|███████▋  | 385M/501M [00:11<00:03, 35.8MB/s]Downloading:  78%|███████▊  | 389M/501M [00:11<00:03, 33.2MB/s]Downloading:  78%|███████▊  | 392M/501M [00:11<00:03, 33.9MB/s]Downloading:  79%|███████▉  | 396M/501M [00:12<00:03, 33.7MB/s]Downloading:  80%|███████▉  | 399M/501M [00:12<00:03, 33.5MB/s]Downloading:  81%|████████  | 403M/501M [00:12<00:02, 35.4MB/s]Downloading:  81%|████████  | 407M/501M [00:12<00:02, 33.8MB/s]Downloading:  82%|████████▏ | 411M/501M [00:12<00:02, 35.7MB/s]Downloading:  83%|████████▎ | 414M/501M [00:12<00:02, 33.4MB/s]Downloading:  84%|████████▎ | 418M/501M [00:12<00:02, 35.4MB/s]Downloading:  84%|████████▍ | 422M/501M [00:12<00:02, 33.3MB/s]Downloading:  85%|████████▌ | 426M/501M [00:12<00:02, 35.5MB/s]Downloading:  86%|████████▌ | 430M/501M [00:13<00:02, 32.8MB/s]Downloading:  87%|████████▋ | 433M/501M [00:13<00:02, 33.0MB/s]Downloading:  87%|████████▋ | 437M/501M [00:13<00:01, 34.3MB/s]Downloading:  88%|████████▊ | 440M/501M [00:13<00:01, 33.9MB/s]Downloading:  89%|████████▊ | 444M/501M [00:13<00:01, 35.3MB/s]Downloading:  89%|████████▉ | 448M/501M [00:13<00:01, 33.8MB/s]Downloading:  90%|█████████ | 452M/501M [00:13<00:01, 35.5MB/s]Downloading:  91%|█████████ | 455M/501M [00:13<00:01, 33.4MB/s]Downloading:  92%|█████████▏| 460M/501M [00:13<00:01, 35.4MB/s]Downloading:  93%|█████████▎| 463M/501M [00:14<00:01, 33.4MB/s]Downloading:  93%|█████████▎| 467M/501M [00:14<00:00, 35.3MB/s]Downloading:  94%|█████████▍| 471M/501M [00:14<00:00, 33.1MB/s]Downloading:  95%|█████████▍| 475M/501M [00:14<00:00, 35.0MB/s]Downloading:  96%|█████████▌| 478M/501M [00:14<00:00, 33.2MB/s]Downloading:  96%|█████████▋| 482M/501M [00:14<00:00, 34.7MB/s]Downloading:  97%|█████████▋| 486M/501M [00:14<00:00, 34.1MB/s]Downloading:  98%|█████████▊| 489M/501M [00:14<00:00, 33.9MB/s]Downloading:  98%|█████████▊| 493M/501M [00:14<00:00, 35.2MB/s]Downloading:  99%|█████████▉| 497M/501M [00:15<00:00, 33.5MB/s]Downloading: 100%|██████████| 501M/501M [00:15<00:00, 33.1MB/s]
+2021-08-11 09:39:21 INFO     Lock 47208308521664 released on /home/moisioa3/.cache/torch/transformers/78af50299bd56e123757b8ac3d8080dc35e9363efb19edac6c0c1a3d4e5323bc.9f043688006999c0955d5d037cd66f9b78582c578cbb4a5eabf3cfcf07ad320e.lock
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:39:25 INFO     Lock 47208308539696 acquired on /home/moisioa3/.cache/torch/transformers/3aa14707d3c0286aa2d536114e9ad07c408b98f06073d023b0108f00e7514b73.7838cac1c582a153d0b525cde699578124d1d35762e9f41a5ce647b86e977e80.lock
+Downloading:   0%|          | 0.00/427k [00:00<?, ?B/s]Downloading:   0%|          | 2.05k/427k [00:00<00:23, 18.1kB/s]Downloading:   8%|▊         | 34.8k/427k [00:00<00:02, 176kB/s] Downloading:  24%|██▍       | 104k/427k [00:00<00:00, 372kB/s] Downloading:  57%|█████▋    | 244k/427k [00:00<00:00, 705kB/s]Downloading: 100%|██████████| 427k/427k [00:00<00:00, 920kB/s]
+2021-08-11 09:39:27 INFO     Lock 47208308539696 released on /home/moisioa3/.cache/torch/transformers/3aa14707d3c0286aa2d536114e9ad07c408b98f06073d023b0108f00e7514b73.7838cac1c582a153d0b525cde699578124d1d35762e9f41a5ce647b86e977e80.lock
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:39:30 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:39:38 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:39:46 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:39:54 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:01 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:09 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring TurkuNLP/bert-base-finnish-uncased-v1
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:18 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:25 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:33 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:41 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in cmd_rescore
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 359, in <listcomp>
+    preds_lm_list = [Predictions.from_file(Path(file_lm).open('r'), max_utts=args.max_utts, vocab=vocab, tokenizer=tokenizer) for file_lm, (_, vocab, tokenizer) in zip(file_lm_list, pretrained_tup_list)]
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json'
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:40:49 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+slurmstepd: error: *** JOB 62145677 ON gpu27 CANCELLED AT 2021-08-11T09:40:51 ***
+Job has already finished for job 62145677

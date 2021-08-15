@@ -1,0 +1,21 @@
+
+Currently Loaded Modules:
+  1) miniconda/4.9.2   3) cuDNN/7-CUDA-9.0.176
+  2) CUDA/9.0.176      4) anaconda/2021-03-tf2
+
+ 
+
+Traceback (most recent call last):
+  File "mxnet_test.py", line 1, in <module>
+    import mxnet
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/__init__.py", line 23, in <module>
+    from .context import Context, current_context, cpu, gpu, cpu_pinned
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/context.py", line 23, in <module>
+    from .base import classproperty, with_metaclass, _MXClassPropertyMetaClass
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/base.py", line 351, in <module>
+    _LIB = _load_lib()
+  File "/home/moisioa3/.local/lib/python3.8/site-packages/mxnet/base.py", line 342, in _load_lib
+    lib = ctypes.CDLL(lib_path[0], ctypes.RTLD_LOCAL)
+  File "/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/ctypes/__init__.py", line 381, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcudnn.so.8: cannot open shared object file: No such file or directory

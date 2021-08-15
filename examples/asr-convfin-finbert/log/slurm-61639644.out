@@ -1,0 +1,11 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+weight 1
+2021-07-13 14:52:49.596129: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-13 14:52:52 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+/var/spool/slurmd/job61639644/slurm_script: line 31: 156596 Killed                  mlm rescore --model "TurkuNLP/bert-base-finnish-cased-v1" --weight ${weight} ../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/50best_devel_morph_finbert_nosp_4-gram/ac.ac0.1.json scoretestdevel50.ac0.1.json > finberttestdevel50.ac0.1.${weight}.json
+slurmstepd: error: Detected 1 oom-kill event(s) in step 61639644.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

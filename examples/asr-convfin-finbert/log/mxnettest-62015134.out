@@ -1,0 +1,14 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+/var/spool/slurmd/job62015134/slurm_script: line 17: pip: command not found
+/var/spool/slurmd/job62015134/slurm_script: line 20: pip: command not found
+/var/spool/slurmd/job62015134/slurm_script: line 21: pip: command not found
+python: can't open file 'mxnet_test.py': [Errno 2] No such file or directory

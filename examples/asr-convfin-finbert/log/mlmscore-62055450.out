@@ -1,0 +1,40 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-05 11:22:29 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 349, in get_config_dict
+    resolved_config_file = cached_path(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/file_utils.py", line 730, in cached_path
+    raise EnvironmentError("file {} not found".format(url_or_filename))
+OSError: file /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/config.json not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 196, in cmd_score
+    model, vocab, tokenizer = get_pretrained(ctxs, args.model, weights_file, regression=args.no_mask)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 107, in get_pretrained
+    model, loading_info = BertForMaskedLMOptimized.from_pretrained(model_fullname, output_loading_info=True)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_utils.py", line 845, in from_pretrained
+    config, model_kwargs = cls.config_class.from_pretrained(
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 315, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/configuration_utils.py", line 368, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp'. Make sure that:
+
+- '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp' is the correct path to a directory containing a config.json file
+
+

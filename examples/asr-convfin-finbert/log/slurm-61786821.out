@@ -1,0 +1,84 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-20 10:04:34.656608: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-20 10:04:37 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-20 10:04:44 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-20 10:04:44 WARNING  Language was set but this model does not use language embeddings!
+2021-07-20 10:04:49 WARNING  # of input sequences: 989
+2021-07-20 10:04:49 WARNING  # of hypotheses: 94161
+2021-07-20 10:05:36 INFO     FixedBucketSampler:
+  sample_num=2035038, batch_num=1181
+  key=[24, 40, 56, 72, 88, 104, 120, 136, 152, 168]
+  cnt=[793159, 542517, 295765, 119645, 92300, 72995, 43223, 16459, 10206, 48769]
+  batch_size=[3500, 2100, 1500, 1166, 954, 807, 700, 617, 552, 500]
+2021-07-20 10:06:04 INFO     10000 sents of 2035038, batch 20 of 1181
+2021-07-20 10:06:32 INFO     20000 sents of 2035038, batch 40 of 1181
+2021-07-20 10:07:01 INFO     30000 sents of 2035038, batch 60 of 1181
+2021-07-20 10:07:30 INFO     40000 sents of 2035038, batch 80 of 1181
+2021-07-20 10:07:57 INFO     49873 sents of 2035038, batch 100 of 1181
+2021-07-20 10:08:23 INFO     60826 sents of 2035038, batch 120 of 1181
+2021-07-20 10:08:52 INFO     73166 sents of 2035038, batch 140 of 1181
+2021-07-20 10:09:18 INFO     86634 sents of 2035038, batch 160 of 1181
+2021-07-20 10:09:43 INFO     100634 sents of 2035038, batch 180 of 1181
+2021-07-20 10:10:10 INFO     114634 sents of 2035038, batch 200 of 1181
+2021-07-20 10:10:35 INFO     129955 sents of 2035038, batch 220 of 1181
+2021-07-20 10:11:00 INFO     146095 sents of 2035038, batch 240 of 1181
+2021-07-20 10:11:27 INFO     162235 sents of 2035038, batch 260 of 1181
+2021-07-20 10:11:53 INFO     178375 sents of 2035038, batch 280 of 1181
+2021-07-20 10:12:17 INFO     194514 sents of 2035038, batch 300 of 1181
+2021-07-20 10:12:43 INFO     213594 sents of 2035038, batch 320 of 1181
+2021-07-20 10:13:09 INFO     232674 sents of 2035038, batch 340 of 1181
+2021-07-20 10:13:35 INFO     251754 sents of 2035038, batch 360 of 1181
+2021-07-20 10:14:00 INFO     270834 sents of 2035038, batch 380 of 1181
+2021-07-20 10:14:26 INFO     290948 sents of 2035038, batch 400 of 1181
+2021-07-20 10:14:51 INFO     314268 sents of 2035038, batch 420 of 1181
+2021-07-20 10:15:15 INFO     337588 sents of 2035038, batch 440 of 1181
+2021-07-20 10:15:39 INFO     360908 sents of 2035038, batch 460 of 1181
+2021-07-20 10:16:05 INFO     384228 sents of 2035038, batch 480 of 1181
+2021-07-20 10:16:29 INFO     408097 sents of 2035038, batch 500 of 1181
+2021-07-20 10:16:55 INFO     438097 sents of 2035038, batch 520 of 1181
+2021-07-20 10:17:19 INFO     468097 sents of 2035038, batch 540 of 1181
+2021-07-20 10:17:44 INFO     498097 sents of 2035038, batch 560 of 1181
+2021-07-20 10:18:07 INFO     528097 sents of 2035038, batch 580 of 1181
+2021-07-20 10:18:30 INFO     558097 sents of 2035038, batch 600 of 1181
+2021-07-20 10:18:55 INFO     588097 sents of 2035038, batch 620 of 1181
+2021-07-20 10:19:19 INFO     618097 sents of 2035038, batch 640 of 1181
+2021-07-20 10:19:43 INFO     648097 sents of 2035038, batch 660 of 1181
+2021-07-20 10:20:07 INFO     678097 sents of 2035038, batch 680 of 1181
+2021-07-20 10:20:30 INFO     709862 sents of 2035038, batch 700 of 1181
+2021-07-20 10:20:56 INFO     751862 sents of 2035038, batch 720 of 1181
+2021-07-20 10:21:21 INFO     793862 sents of 2035038, batch 740 of 1181
+2021-07-20 10:21:44 INFO     835862 sents of 2035038, batch 760 of 1181
+2021-07-20 10:22:09 INFO     877862 sents of 2035038, batch 780 of 1181
+2021-07-20 10:22:33 INFO     919862 sents of 2035038, batch 800 of 1181
+2021-07-20 10:22:56 INFO     961862 sents of 2035038, batch 820 of 1181
+2021-07-20 10:23:20 INFO     1003862 sents of 2035038, batch 840 of 1181
+2021-07-20 10:23:47 INFO     1045862 sents of 2035038, batch 860 of 1181
+2021-07-20 10:24:11 INFO     1087862 sents of 2035038, batch 880 of 1181
+2021-07-20 10:24:35 INFO     1129862 sents of 2035038, batch 900 of 1181
+2021-07-20 10:24:59 INFO     1171862 sents of 2035038, batch 920 of 1181
+2021-07-20 10:25:23 INFO     1213862 sents of 2035038, batch 940 of 1181
+2021-07-20 10:25:47 INFO     1262879 sents of 2035038, batch 960 of 1181
+2021-07-20 10:26:12 INFO     1332879 sents of 2035038, batch 980 of 1181
+2021-07-20 10:26:38 INFO     1402879 sents of 2035038, batch 1000 of 1181
+2021-07-20 10:27:02 INFO     1472879 sents of 2035038, batch 1020 of 1181
+2021-07-20 10:27:28 INFO     1542879 sents of 2035038, batch 1040 of 1181
+2021-07-20 10:27:55 INFO     1612879 sents of 2035038, batch 1060 of 1181
+2021-07-20 10:28:21 INFO     1682879 sents of 2035038, batch 1080 of 1181
+2021-07-20 10:28:45 INFO     1752879 sents of 2035038, batch 1100 of 1181
+2021-07-20 10:29:13 INFO     1822879 sents of 2035038, batch 1120 of 1181
+2021-07-20 10:29:38 INFO     1892879 sents of 2035038, batch 1140 of 1181
+2021-07-20 10:30:03 INFO     1962879 sents of 2035038, batch 1160 of 1181
+2021-07-20 10:30:28 INFO     2032879 sents of 2035038, batch 1180 of 1181
+2021-07-20 10:30:31 WARNING  # words: 1626335
+2021-07-20 10:30:31 WARNING  longest sentence: 140
+2021-07-20 10:30:31 WARNING  # tokens: 2035038
+2021-07-20 10:30:31 WARNING  Token-level (P)PPL: 213.13388409882208
+2021-07-20 10:30:31 WARNING  Word-normalized (P)PPL: 820.0683531499432

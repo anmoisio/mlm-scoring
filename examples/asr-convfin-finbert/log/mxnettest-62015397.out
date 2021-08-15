@@ -1,0 +1,127 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+Package            Version
+------------------ -------------------
+certifi            2021.5.30
+charset-normalizer 2.0.4
+graphviz           0.8.4
+idna               3.2
+mxnet-cu110        1.8.0.post0
+numpy              1.21.1
+pip                21.2.2
+requests           2.26.0
+setuptools         52.0.0.post20210125
+urllib3            1.26.6
+wheel              0.36.2
+Obtaining file:///scratch/work/moisioa3/conv_lm/mlm-scoring
+Collecting gluonnlp~=0.8.3
+  Using cached gluonnlp-0.8.3-py3-none-any.whl
+Collecting regex
+  Using cached regex-2021.7.6-cp39-cp39-manylinux2014_x86_64.whl (733 kB)
+Collecting sacrebleu
+  Using cached sacrebleu-1.5.1-py3-none-any.whl (54 kB)
+Collecting mosestokenizer
+  Using cached mosestokenizer-1.1.0-py3-none-any.whl
+Collecting transformers~=3.3.1
+  Using cached transformers-3.3.1-py3-none-any.whl (1.1 MB)
+Requirement already satisfied: numpy in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from gluonnlp~=0.8.3->mlm==0.1) (1.21.1)
+Collecting tokenizers==0.8.1.rc2
+  Using cached tokenizers-0.8.1rc2.tar.gz (97 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting sentencepiece!=0.1.92
+  Using cached sentencepiece-0.1.96-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+Collecting tqdm>=4.27
+  Using cached tqdm-4.62.0-py2.py3-none-any.whl (76 kB)
+Requirement already satisfied: requests in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from transformers~=3.3.1->mlm==0.1) (2.26.0)
+Collecting packaging
+  Using cached packaging-21.0-py3-none-any.whl (40 kB)
+Collecting sacremoses
+  Using cached sacremoses-0.0.45-py3-none-any.whl (895 kB)
+Collecting filelock
+  Using cached filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting openfile
+  Using cached openfile-0.0.7-py3-none-any.whl (2.4 kB)
+Collecting toolwrapper
+  Using cached toolwrapper-2.1.0-py3-none-any.whl
+Collecting docopt
+  Using cached docopt-0.6.2-py2.py3-none-any.whl
+Collecting uctools
+  Using cached uctools-1.3.0-py3-none-any.whl
+Collecting pyparsing>=2.0.2
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from requests->transformers~=3.3.1->mlm==0.1) (1.26.6)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from requests->transformers~=3.3.1->mlm==0.1) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from requests->transformers~=3.3.1->mlm==0.1) (3.2)
+Requirement already satisfied: certifi>=2017.4.17 in /home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages (from requests->transformers~=3.3.1->mlm==0.1) (2021.5.30)
+Collecting portalocker==2.0.0
+  Using cached portalocker-2.0.0-py2.py3-none-any.whl (11 kB)
+Collecting click
+  Using cached click-8.0.1-py3-none-any.whl (97 kB)
+Collecting joblib
+  Using cached joblib-1.0.1-py3-none-any.whl (303 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: tokenizers
+  Building wheel for tokenizers (PEP 517): started
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): still running...
+  Building wheel for tokenizers (PEP 517): finished with status 'done'
+  Created wheel for tokenizers: filename=tokenizers-0.8.1rc2-cp39-cp39-linux_x86_64.whl size=3072560 sha256=86cf8047fc36b12d0769489a7467c7d0c9b33f889e0aac731c06ced6b3cc7aa1
+  Stored in directory: /home/moisioa3/.cache/pip/wheels/4e/30/81/b87bbe7da11c6eb57d6d24e8cfb386615d0c8e7f76a70e6b79
+Successfully built tokenizers
+Installing collected packages: tqdm, six, regex, pyparsing, joblib, click, uctools, toolwrapper, tokenizers, sentencepiece, sacremoses, portalocker, packaging, openfile, filelock, docopt, transformers, sacrebleu, mosestokenizer, gluonnlp, mlm
+  Running setup.py develop for mlm
+Successfully installed click-8.0.1 docopt-0.6.2 filelock-3.0.12 gluonnlp-0.8.3 joblib-1.0.1 mlm-0.1 mosestokenizer-1.1.0 openfile-0.0.7 packaging-21.0 portalocker-2.0.0 pyparsing-2.4.7 regex-2021.7.6 sacrebleu-1.5.1 sacremoses-0.0.45 sentencepiece-0.1.96 six-1.16.0 tokenizers-0.8.1rc2 toolwrapper-2.1.0 tqdm-4.62.0 transformers-3.3.1 uctools-1.3.0
+Package            Version             Location
+------------------ ------------------- ----------------------------------------------
+certifi            2021.5.30
+charset-normalizer 2.0.4
+click              8.0.1
+docopt             0.6.2
+filelock           3.0.12
+gluonnlp           0.8.3
+graphviz           0.8.4
+idna               3.2
+joblib             1.0.1
+mlm                0.1                 /scratch/work/moisioa3/conv_lm/mlm-scoring/src
+mosestokenizer     1.1.0
+mxnet-cu110        1.8.0.post0
+numpy              1.21.1
+openfile           0.0.7
+packaging          21.0
+pip                21.2.2
+portalocker        2.0.0
+pyparsing          2.4.7
+regex              2021.7.6
+requests           2.26.0
+sacrebleu          1.5.1
+sacremoses         0.0.45
+sentencepiece      0.1.96
+setuptools         52.0.0.post20210125
+six                1.16.0
+tokenizers         0.8.1rc2
+toolwrapper        2.1.0
+tqdm               4.62.0
+transformers       3.3.1
+uctools            1.3.0
+urllib3            1.26.6
+wheel              0.36.2

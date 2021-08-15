@@ -1,0 +1,54 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-20 09:44:24.391238: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-20 09:44:28 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-20 09:44:35 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-20 09:44:35 WARNING  Language was set but this model does not use language embeddings!
+2021-07-20 09:44:40 WARNING  # of input sequences: 989
+2021-07-20 09:44:40 WARNING  # of hypotheses: 47866
+2021-07-20 09:45:03 INFO     FixedBucketSampler:
+  sample_num=1019650, batch_num=595
+  key=[24, 40, 56, 72, 88, 104, 120, 136, 152, 168]
+  cnt=[399368, 271080, 147432, 60168, 45608, 36514, 21768, 8299, 5034, 24379]
+  batch_size=[3500, 2100, 1500, 1166, 954, 807, 700, 617, 552, 500]
+2021-07-20 09:45:32 INFO     10000 sents of 1019650, batch 20 of 595
+2021-07-20 09:46:00 INFO     20000 sents of 1019650, batch 40 of 595
+2021-07-20 09:46:26 INFO     30030 sents of 1019650, batch 60 of 595
+2021-07-20 09:46:53 INFO     42612 sents of 1019650, batch 80 of 595
+2021-07-20 09:47:19 INFO     56612 sents of 1019650, batch 100 of 595
+2021-07-20 09:47:43 INFO     71585 sents of 1019650, batch 120 of 595
+2021-07-20 09:48:09 INFO     87725 sents of 1019650, batch 140 of 595
+2021-07-20 09:48:33 INFO     104580 sents of 1019650, batch 160 of 595
+2021-07-20 09:49:00 INFO     123660 sents of 1019650, batch 180 of 595
+2021-07-20 09:49:25 INFO     142768 sents of 1019650, batch 200 of 595
+2021-07-20 09:49:50 INFO     166088 sents of 1019650, batch 220 of 595
+2021-07-20 09:50:15 INFO     189408 sents of 1019650, batch 240 of 595
+2021-07-20 09:50:40 INFO     215270 sents of 1019650, batch 260 of 595
+2021-07-20 09:51:04 INFO     245270 sents of 1019650, batch 280 of 595
+2021-07-20 09:51:28 INFO     275270 sents of 1019650, batch 300 of 595
+2021-07-20 09:51:54 INFO     305270 sents of 1019650, batch 320 of 595
+2021-07-20 09:52:18 INFO     335270 sents of 1019650, batch 340 of 595
+2021-07-20 09:52:43 INFO     370202 sents of 1019650, batch 360 of 595
+2021-07-20 09:53:07 INFO     412202 sents of 1019650, batch 380 of 595
+2021-07-20 09:53:32 INFO     454202 sents of 1019650, batch 400 of 595
+2021-07-20 09:53:57 INFO     496202 sents of 1019650, batch 420 of 595
+2021-07-20 09:54:23 INFO     538202 sents of 1019650, batch 440 of 595
+2021-07-20 09:54:47 INFO     580202 sents of 1019650, batch 460 of 595
+2021-07-20 09:55:10 INFO     620282 sents of 1019650, batch 480 of 595
+2021-07-20 09:55:38 INFO     690282 sents of 1019650, batch 500 of 595
+2021-07-20 09:56:04 INFO     760282 sents of 1019650, batch 520 of 595
+2021-07-20 09:56:31 INFO     830282 sents of 1019650, batch 540 of 595
+2021-07-20 09:56:57 INFO     900282 sents of 1019650, batch 560 of 595
+2021-07-20 09:57:24 INFO     970282 sents of 1019650, batch 580 of 595
+2021-07-20 09:57:43 WARNING  # words: 816231
+2021-07-20 09:57:43 WARNING  longest sentence: 140
+2021-07-20 09:57:43 WARNING  # tokens: 1019650
+2021-07-20 09:57:43 WARNING  Token-level (P)PPL: 207.47375569211528
+2021-07-20 09:57:43 WARNING  Word-normalized (P)PPL: 784.1349245594075

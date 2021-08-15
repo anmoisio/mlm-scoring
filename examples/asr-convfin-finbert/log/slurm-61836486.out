@@ -1,0 +1,28 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-23 12:26:57.269009: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-23 12:26:59 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-23 12:27:05 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-23 12:27:05 WARNING  Language was set but this model does not use language embeddings!
+2021-07-23 12:27:11 WARNING  # of input sequences: 989
+2021-07-23 12:27:11 WARNING  # of hypotheses: 876564
+2021-07-23 12:33:25 INFO     FixedBucketSampler:
+  sample_num=20048482, batch_num=11645
+  key=[26, 42, 58, 74, 90, 106, 122, 138, 154, 170]
+  cnt=[8517906, 5045648, 2629114, 1103995, 1019115, 635775, 341994, 218891, 48032, 488012]
+  batch_size=[3269, 2023, 1465, 1148, 944, 801, 696, 615, 551, 500]
+2021-07-23 12:34:16 INFO     10000 sents of 20048482, batch 20 of 11645
+2021-07-23 12:35:02 INFO     20000 sents of 20048482, batch 40 of 11645
+2021-07-23 12:35:48 INFO     30000 sents of 20048482, batch 60 of 11645
+2021-07-23 12:36:34 INFO     40000 sents of 20048482, batch 80 of 11645
+2021-07-23 12:37:21 INFO     50000 sents of 20048482, batch 100 of 11645
+2021-07-23 12:38:07 INFO     60000 sents of 20048482, batch 120 of 11645
+slurmstepd: error: *** JOB 61836486 ON gpu27 CANCELLED AT 2021-07-23T12:38:52 ***
+Job has already finished for job 61836486

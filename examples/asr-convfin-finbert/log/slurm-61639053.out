@@ -1,0 +1,66 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-13 14:23:02.951893: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-13 14:23:05 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-13 14:23:12 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-13 14:23:12 WARNING  Language was set but this model does not use language embeddings!
+2021-07-13 14:23:16 WARNING  # of input sequences: 989
+2021-07-13 14:23:16 WARNING  # of hypotheses: 47866
+2021-07-13 14:23:42 INFO     FixedBucketSampler:
+  sample_num=1479930, batch_num=831
+  key=[30, 54, 78, 102, 126, 150, 174, 198, 222, 246]
+  cnt=[473056, 465832, 245754, 96299, 67224, 53441, 18960, 14420, 14682, 30262]
+  batch_size=[4100, 2277, 1576, 1205, 976, 820, 706, 621, 554, 500]
+2021-07-13 14:24:22 INFO     10000 sents of 1479930, batch 20 of 831
+2021-07-13 14:25:03 INFO     20000 sents of 1479930, batch 40 of 831
+2021-07-13 14:25:46 INFO     30000 sents of 1479930, batch 60 of 831
+2021-07-13 14:26:28 INFO     40788 sents of 1479930, batch 80 of 831
+2021-07-13 14:27:08 INFO     52396 sents of 1479930, batch 100 of 831
+2021-07-13 14:27:45 INFO     65012 sents of 1479930, batch 120 of 831
+2021-07-13 14:28:24 INFO     79144 sents of 1479930, batch 140 of 831
+2021-07-13 14:29:04 INFO     95544 sents of 1479930, batch 160 of 831
+2021-07-13 14:29:42 INFO     111944 sents of 1479930, batch 180 of 831
+2021-07-13 14:30:21 INFO     128344 sents of 1479930, batch 200 of 831
+2021-07-13 14:30:58 INFO     146405 sents of 1479930, batch 220 of 831
+2021-07-13 14:31:37 INFO     165925 sents of 1479930, batch 240 of 831
+2021-07-13 14:32:15 INFO     185445 sents of 1479930, batch 260 of 831
+2021-07-13 14:32:52 INFO     206219 sents of 1479930, batch 280 of 831
+2021-07-13 14:33:28 INFO     230319 sents of 1479930, batch 300 of 831
+2021-07-13 14:34:08 INFO     254419 sents of 1479930, batch 320 of 831
+2021-07-13 14:34:44 INFO     278519 sents of 1479930, batch 340 of 831
+2021-07-13 14:35:21 INFO     304744 sents of 1479930, batch 360 of 831
+2021-07-13 14:36:00 INFO     336264 sents of 1479930, batch 380 of 831
+2021-07-13 14:36:38 INFO     367784 sents of 1479930, batch 400 of 831
+2021-07-13 14:37:15 INFO     399304 sents of 1479930, batch 420 of 831
+2021-07-13 14:37:52 INFO     430824 sents of 1479930, batch 440 of 831
+2021-07-13 14:38:28 INFO     462344 sents of 1479930, batch 460 of 831
+2021-07-13 14:39:04 INFO     493864 sents of 1479930, batch 480 of 831
+2021-07-13 14:39:40 INFO     525384 sents of 1479930, batch 500 of 831
+2021-07-13 14:40:19 INFO     563812 sents of 1479930, batch 520 of 831
+2021-07-13 14:40:56 INFO     609352 sents of 1479930, batch 540 of 831
+2021-07-13 14:41:32 INFO     654892 sents of 1479930, batch 560 of 831
+2021-07-13 14:42:08 INFO     700432 sents of 1479930, batch 580 of 831
+2021-07-13 14:42:44 INFO     745972 sents of 1479930, batch 600 of 831
+2021-07-13 14:43:20 INFO     791512 sents of 1479930, batch 620 of 831
+2021-07-13 14:43:58 INFO     837052 sents of 1479930, batch 640 of 831
+2021-07-13 14:44:34 INFO     882592 sents of 1479930, batch 660 of 831
+2021-07-13 14:45:11 INFO     928132 sents of 1479930, batch 680 of 831
+2021-07-13 14:45:47 INFO     973672 sents of 1479930, batch 700 of 831
+2021-07-13 14:46:26 INFO     1027374 sents of 1479930, batch 720 of 831
+2021-07-13 14:47:06 INFO     1109374 sents of 1479930, batch 740 of 831
+2021-07-13 14:47:47 INFO     1191374 sents of 1479930, batch 760 of 831
+2021-07-13 14:48:27 INFO     1273374 sents of 1479930, batch 780 of 831
+2021-07-13 14:49:07 INFO     1355374 sents of 1479930, batch 800 of 831
+2021-07-13 14:49:48 INFO     1437374 sents of 1479930, batch 820 of 831
+2021-07-13 14:50:09 WARNING  # words: 1019675
+2021-07-13 14:50:09 WARNING  longest sentence: 166
+2021-07-13 14:50:09 WARNING  # tokens: 1479930
+2021-07-13 14:50:09 WARNING  Token-level (P)PPL: 251.0181272381135
+2021-07-13 14:50:09 WARNING  Word-normalized (P)PPL: 3039.9754602886574

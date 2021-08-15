@@ -1,0 +1,159 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:03:28 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:03:33 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:03:34 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:03:34 WARNING  WER: 37.5748031496063%
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:03:39 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:03:43 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:03:44 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:03:44 WARNING  WER: 36.61417322834646%
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:03:46 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:03:51 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:03:51 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:03:51 WARNING  WER: 35.55905511811024%
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:03:54 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:03:58 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:03:58 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:03:58 WARNING  WER: 35.59055118110236%
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:01 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:05 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:05 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:05 WARNING  WER: 35.44881889763779%
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:08 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:12 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:12 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:12 WARNING  WER: 35.653543307086615%
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:15 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:19 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:19 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:19 WARNING  WER: 36.83464566929134%
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:22 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:27 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:28 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:28 WARNING  WER: 37.62204724409449%
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:30 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:34 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:35 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:35 WARNING  WER: 36.56692913385827%
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:37 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:41 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:42 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:42 WARNING  WER: 35.338582677165356%
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:44 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:48 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:48 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:49 WARNING  WER: 35.55905511811024%
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:51 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:04:55 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:04:55 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:04:55 WARNING  WER: 35.669291338582674%
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:04:58 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:02 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:02 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:02 WARNING  WER: 35.90551181102362%
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:05 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:09 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:09 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:09 WARNING  WER: 36.83464566929134%
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:12 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:17 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:18 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:18 WARNING  WER: 37.76377952755905%
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:20 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:24 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:24 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:25 WARNING  WER: 36.803149606299215%
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:27 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:31 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:31 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:31 WARNING  WER: 35.48031496062992%
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:34 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:38 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:38 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:38 WARNING  WER: 35.40157480314961%
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:41 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:45 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:45 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:45 WARNING  WER: 35.30708661417323%
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:48 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:52 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:52 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:52 WARNING  WER: 35.71653543307087%
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 11:05:55 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 11:05:59 WARNING  541 shared keys found, rescoring these...
+2021-08-10 11:05:59 WARNING  541 predictions to compute total WER on...
+2021-08-10 11:05:59 WARNING  WER: 36.47244094488189%

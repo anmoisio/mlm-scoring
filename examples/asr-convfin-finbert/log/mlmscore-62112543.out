@@ -1,0 +1,123 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+scoring hypotheses using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 09:14:04 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-10 09:14:08 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 09:14:08 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 09:14:10 WARNING  # of input sequences: 541
+2021-08-10 09:14:10 WARNING  # of hypotheses: 27211
+2021-08-10 09:14:19 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 09:16:19 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-10 09:18:11 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-10 09:20:07 INFO     37707 sents of 409984, batch 60 of 235
+2021-08-10 09:22:03 INFO     58136 sents of 409984, batch 80 of 235
+2021-08-10 09:23:57 INFO     83080 sents of 409984, batch 100 of 235
+2021-08-10 09:25:52 INFO     114460 sents of 409984, batch 120 of 235
+2021-08-10 09:27:44 INFO     147353 sents of 409984, batch 140 of 235
+2021-08-10 09:29:43 INFO     192553 sents of 409984, batch 160 of 235
+2021-08-10 09:31:41 INFO     237753 sents of 409984, batch 180 of 235
+2021-08-10 09:33:44 INFO     282953 sents of 409984, batch 200 of 235
+2021-08-10 09:35:50 INFO     351137 sents of 409984, batch 220 of 235
+2021-08-10 09:37:24 WARNING  # words: 315485
+2021-08-10 09:37:24 WARNING  longest sentence: 85
+2021-08-10 09:37:24 WARNING  # tokens: 409984
+2021-08-10 09:37:24 WARNING  Token-level (P)PPL: 85.74109140407288
+2021-08-10 09:37:24 WARNING  Word-normalized (P)PPL: 325.27299268866625
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 09:37:30 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-40000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 09:37:34 WARNING  541 shared keys found, rescoring these...
+2021-08-10 09:37:35 WARNING  541 predictions to compute total WER on...
+2021-08-10 09:37:35 WARNING  WER: 35.59055118110236%
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+scoring hypotheses using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 09:37:37 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-10 09:37:43 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 09:37:43 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 09:37:45 WARNING  # of input sequences: 541
+2021-08-10 09:37:45 WARNING  # of hypotheses: 27211
+2021-08-10 09:37:54 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 09:39:55 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-10 09:41:46 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-10 09:43:42 INFO     37707 sents of 409984, batch 60 of 235
+2021-08-10 09:45:38 INFO     58136 sents of 409984, batch 80 of 235
+2021-08-10 09:47:32 INFO     83080 sents of 409984, batch 100 of 235
+2021-08-10 09:49:27 INFO     114460 sents of 409984, batch 120 of 235
+2021-08-10 09:51:19 INFO     147353 sents of 409984, batch 140 of 235
+2021-08-10 09:53:17 INFO     192553 sents of 409984, batch 160 of 235
+2021-08-10 09:55:16 INFO     237753 sents of 409984, batch 180 of 235
+2021-08-10 09:57:17 INFO     282953 sents of 409984, batch 200 of 235
+2021-08-10 09:59:24 INFO     351137 sents of 409984, batch 220 of 235
+2021-08-10 10:00:57 WARNING  # words: 315485
+2021-08-10 10:00:57 WARNING  longest sentence: 85
+2021-08-10 10:00:57 WARNING  # tokens: 409984
+2021-08-10 10:00:57 WARNING  Token-level (P)PPL: 79.50947624579382
+2021-08-10 10:00:57 WARNING  Word-normalized (P)PPL: 294.8913770987639
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 10:01:01 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-60000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 10:01:05 WARNING  541 shared keys found, rescoring these...
+2021-08-10 10:01:05 WARNING  541 predictions to compute total WER on...
+2021-08-10 10:01:05 WARNING  WER: 35.55905511811024%
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+scoring hypotheses using /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 10:01:08 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+BertForMaskedLMOptimized from dir
+2021-08-10 10:01:13 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-10 10:01:13 WARNING  Language was set but this model does not use language embeddings!
+2021-08-10 10:01:16 WARNING  # of input sequences: 541
+2021-08-10 10:01:16 WARNING  # of hypotheses: 27211
+2021-08-10 10:01:25 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-08-10 10:03:24 INFO     10039 sents of 409984, batch 20 of 235
+2021-08-10 10:05:15 INFO     21769 sents of 409984, batch 40 of 235
+2021-08-10 10:07:10 INFO     37707 sents of 409984, batch 60 of 235
+2021-08-10 10:09:05 INFO     58136 sents of 409984, batch 80 of 235
+2021-08-10 10:10:59 INFO     83080 sents of 409984, batch 100 of 235
+2021-08-10 10:12:54 INFO     114460 sents of 409984, batch 120 of 235
+2021-08-10 10:14:45 INFO     147353 sents of 409984, batch 140 of 235
+2021-08-10 10:16:43 INFO     192553 sents of 409984, batch 160 of 235
+2021-08-10 10:18:41 INFO     237753 sents of 409984, batch 180 of 235
+2021-08-10 10:20:44 INFO     282953 sents of 409984, batch 200 of 235
+2021-08-10 10:22:50 INFO     351137 sents of 409984, batch 220 of 235
+2021-08-10 10:24:23 WARNING  # words: 315485
+2021-08-10 10:24:23 WARNING  longest sentence: 85
+2021-08-10 10:24:23 WARNING  # tokens: 409984
+2021-08-10 10:24:24 WARNING  Token-level (P)PPL: 75.71220311986778
+2021-08-10 10:24:24 WARNING  Word-normalized (P)PPL: 276.72158154401353
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40/lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+rescoring /scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-10 10:24:44 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/TurkuNLP/bert-base-finnish-cased-v1-finetuned-web-dsp/checkpoint-82000' not recognized as an MXNet model; treating as PyTorch model
+2021-08-10 10:24:49 WARNING  541 shared keys found, rescoring these...
+2021-08-10 10:24:50 WARNING  541 predictions to compute total WER on...
+2021-08-10 10:24:50 WARNING  WER: 35.40157480314961%

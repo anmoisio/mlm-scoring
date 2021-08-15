@@ -1,0 +1,36 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+2021-07-27 10:31:11.008152: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-07-27 10:31:13 WARNING  Model 'TurkuNLP/bert-base-finnish-cased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-cased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-07-27 10:31:20 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-07-27 10:31:20 WARNING  Language was set but this model does not use language embeddings!
+2021-07-27 10:31:24 WARNING  # of input sequences: 541
+2021-07-27 10:31:24 WARNING  # of hypotheses: 27211
+2021-07-27 10:31:34 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+2021-07-27 10:32:04 INFO     10039 sents of 409984, batch 20 of 235
+2021-07-27 10:32:30 INFO     21769 sents of 409984, batch 40 of 235
+2021-07-27 10:32:58 INFO     37707 sents of 409984, batch 60 of 235
+2021-07-27 10:33:26 INFO     58136 sents of 409984, batch 80 of 235
+2021-07-27 10:33:54 INFO     83080 sents of 409984, batch 100 of 235
+2021-07-27 10:34:22 INFO     114460 sents of 409984, batch 120 of 235
+2021-07-27 10:34:49 INFO     147353 sents of 409984, batch 140 of 235
+2021-07-27 10:35:18 INFO     192553 sents of 409984, batch 160 of 235
+2021-07-27 10:35:47 INFO     237753 sents of 409984, batch 180 of 235
+2021-07-27 10:36:16 INFO     282953 sents of 409984, batch 200 of 235
+2021-07-27 10:36:47 INFO     351137 sents of 409984, batch 220 of 235
+2021-07-27 10:37:10 WARNING  # words: 315485
+2021-07-27 10:37:10 WARNING  longest sentence: 85
+2021-07-27 10:37:10 WARNING  # tokens: 409984
+2021-07-27 10:37:10 WARNING  Token-level (P)PPL: 261.32363382958715
+2021-07-27 10:37:10 WARNING  Word-normalized (P)PPL: 1384.2350556206102

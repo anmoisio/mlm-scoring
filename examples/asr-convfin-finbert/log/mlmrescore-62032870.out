@@ -1,0 +1,29 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/scratch/work/moisioa3/conv_lm/experiments/theanolm-morph-42k/expt2-sampled-seq40
+lstm_rescored_100best_eval_tdnn7q_sp_ensemble2_morph_nosp_4-gram
+weight 0.5
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-03 15:09:44 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' not recognized as an MXNet model; treating as PyTorch model
+2021-08-03 15:09:48 WARNING  541 shared keys found, rescoring these...
+2021-08-03 15:09:48 WARNING  541 predictions to compute total WER on...
+2021-08-03 15:09:48 WARNING  WER: 35.952755905511815%
+weight 1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-03 15:09:51 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' not recognized as an MXNet model; treating as PyTorch model
+2021-08-03 15:09:55 WARNING  541 shared keys found, rescoring these...
+2021-08-03 15:09:55 WARNING  541 predictions to compute total WER on...
+2021-08-03 15:09:55 WARNING  WER: 35.952755905511815%
+weight 1.5
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-03 15:09:58 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' not recognized as an MXNet model; treating as PyTorch model
+2021-08-03 15:10:02 WARNING  541 shared keys found, rescoring these...
+2021-08-03 15:10:02 WARNING  541 predictions to compute total WER on...
+2021-08-03 15:10:02 WARNING  WER: 36.62992125984252%

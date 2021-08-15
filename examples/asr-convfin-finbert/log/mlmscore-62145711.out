@@ -1,0 +1,121 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+using 100-best list from ../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+scoring 100-best list using
+write output to scored/tdnn7q_sp_ensemble_vc_morph_finbert_nosp_4-gram/100best_eval_finbert_uncased.combined.ac0.1.json
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:43:37 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:43:43 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-11 09:43:43 WARNING  Language was set but this model does not use language embeddings!
+2021-08-11 09:44:27 WARNING  # of input sequences: 541
+2021-08-11 09:44:27 WARNING  # of hypotheses: 48503
+2021-08-11 09:44:46 INFO     FixedBucketSampler:
+  sample_num=721954, batch_num=418
+  key=[18, 28, 38, 48, 58, 68, 78, 88, 98, 108]
+  cnt=[340591, 187709, 78533, 34961, 25776, 12131, 14293, 6230, 11316, 10414]
+  batch_size=[3000, 1928, 1421, 1125, 931, 794, 692, 613, 551, 500]
+2021-08-11 09:45:16 INFO     10000 sents of 721954, batch 20 of 418
+2021-08-11 09:45:44 INFO     20883 sents of 721954, batch 40 of 418
+2021-08-11 09:46:11 INFO     32804 sents of 721954, batch 60 of 418
+2021-08-11 09:46:39 INFO     47017 sents of 721954, batch 80 of 418
+2021-08-11 09:47:05 INFO     63694 sents of 721954, batch 100 of 418
+2021-08-11 09:47:33 INFO     82410 sents of 721954, batch 120 of 418
+2021-08-11 09:48:01 INFO     104910 sents of 721954, batch 140 of 418
+2021-08-11 09:48:27 INFO     129331 sents of 721954, batch 160 of 418
+2021-08-11 09:48:55 INFO     157751 sents of 721954, batch 180 of 418
+2021-08-11 09:49:22 INFO     186171 sents of 721954, batch 200 of 418
+2021-08-11 09:49:48 INFO     220646 sents of 721954, batch 220 of 418
+2021-08-11 09:50:16 INFO     259206 sents of 721954, batch 240 of 418
+2021-08-11 09:50:43 INFO     297766 sents of 721954, batch 260 of 418
+2021-08-11 09:51:11 INFO     336326 sents of 721954, batch 280 of 418
+2021-08-11 09:51:39 INFO     374886 sents of 721954, batch 300 of 418
+2021-08-11 09:52:06 INFO     429363 sents of 721954, batch 320 of 418
+2021-08-11 09:52:34 INFO     489363 sents of 721954, batch 340 of 418
+2021-08-11 09:53:02 INFO     549363 sents of 721954, batch 360 of 418
+2021-08-11 09:53:30 INFO     609363 sents of 721954, batch 380 of 418
+2021-08-11 09:53:58 INFO     669363 sents of 721954, batch 400 of 418
+2021-08-11 09:54:24 WARNING  # words: 579079
+2021-08-11 09:54:24 WARNING  longest sentence: 86
+2021-08-11 09:54:24 WARNING  # tokens: 721954
+2021-08-11 09:54:24 WARNING  Token-level (P)PPL: 463.145794305639
+2021-08-11 09:54:24 WARNING  Word-normalized (P)PPL: 2105.8377721897064
+../../../../keskustelu2020/experiments/am/converse_fin/exp/chain/tdnn7q_sp_ensemble_vc/100best_eval_morph_finbert_nosp_4-gram
+rescoring TurkuNLP/bert-base-finnish-uncased-v1
+ac scale 0.01
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:54:27 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:54:33 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:54:33 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:54:33 WARNING  WER: 36.67716535433071%
+ac scale 0.03
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:54:36 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:54:41 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:54:42 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:54:42 WARNING  WER: 36.31496062992126%
+ac scale 0.08
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:54:44 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:54:50 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:54:50 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:54:50 WARNING  WER: 35.77952755905512%
+ac scale 0.1
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:54:53 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:54:58 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:54:59 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:54:59 WARNING  WER: 35.826771653543304%
+ac scale 0.13
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:55:01 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:55:07 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:55:07 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:55:07 WARNING  WER: 35.88976377952756%
+ac scale 0.2
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:55:10 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:55:15 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:55:16 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:55:16 WARNING  WER: 37.118110236220474%
+ac scale 0.3
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-11 09:55:18 WARNING  Model 'TurkuNLP/bert-base-finnish-uncased-v1' not recognized as an MXNet model; treating as PyTorch model
+Some weights of the model checkpoint at TurkuNLP/bert-base-finnish-uncased-v1 were not used when initializing BertForMaskedLMOptimized: ['cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing BertForMaskedLMOptimized from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2021-08-11 09:55:24 WARNING  541 shared keys found, rescoring these...
+2021-08-11 09:55:24 WARNING  541 predictions to compute total WER on...
+2021-08-11 09:55:24 WARNING  WER: 38.62992125984252%

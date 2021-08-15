@@ -1,0 +1,18 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+# conda environments:
+#
+mlm-scoring              /home/moisioa3/.conda/envs/mlm-scoring
+mlm-scoring2             /home/moisioa3/.conda/envs/mlm-scoring2
+mlm-scoring3             /home/moisioa3/.conda/envs/mlm-scoring3
+mlm-scoring4          *  /home/moisioa3/.conda/envs/mlm-scoring4
+base                     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8
+

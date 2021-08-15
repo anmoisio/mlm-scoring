@@ -1,0 +1,50 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-03 14:32:35 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' not recognized as an MXNet model; treating as PyTorch model
+2021-08-03 14:32:39 WARNING  Created scorer of class 'MLMScorerPT'.
+2021-08-03 14:32:39 WARNING  Language was set but this model does not use language embeddings!
+2021-08-03 14:32:41 WARNING  # of input sequences: 541
+2021-08-03 14:32:41 WARNING  # of hypotheses: 27211
+2021-08-03 14:32:49 INFO     FixedBucketSampler:
+  sample_num=409984, batch_num=235
+  key=[14, 25, 36, 47, 58, 69, 80, 91, 102, 113]
+  cnt=[111302, 160369, 63078, 26715, 16657, 4514, 12640, 1865, 6123, 6721]
+  batch_size=[4035, 2260, 1569, 1202, 974, 818, 706, 620, 553, 500]
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 236, in cmd_score
+    scores, true_tok_lens = scorer.score(corpus_for_scoring, ratio=1, split_size=args.split_size, per_token=args.per_token)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/scorers.py", line 733, in score
+    out = self._model(input_ids=token_ids, attention_mask=mask)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_bert.py", line 1168, in forward
+    prediction_scores = self.cls(sequence_output)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_bert.py", line 556, in forward
+    prediction_scores = self.predictions(sequence_output)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/transformers/modeling_bert.py", line 546, in forward
+    hidden_states = self.decoder(hidden_states)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/torch/nn/functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA out of memory. Tried to allocate 10.27 GiB (GPU 0; 15.90 GiB total capacity; 798.47 MiB already allocated; 3.78 GiB free; 11.23 GiB reserved in total by PyTorch)

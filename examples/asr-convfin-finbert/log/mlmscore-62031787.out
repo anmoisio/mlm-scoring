@@ -1,0 +1,19 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+/home/moisioa3/.conda/envs/mlm-scoring/lib/python3.9/site-packages/mxnet/optimizer/optimizer.py:163: UserWarning: WARNING: New optimizer gluonnlp.optimizer.lamb.LAMB is overriding existing optimizer mxnet.optimizer.optimizer.LAMB
+  warnings.warn('WARNING: New optimizer %s.%s is overriding '
+2021-08-03 14:18:54 WARNING  Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' not recognized as an MXNet model; treating as PyTorch model
+Traceback (most recent call last):
+  File "/home/moisioa3/.conda/envs/mlm-scoring/bin/mlm", line 33, in <module>
+    sys.exit(load_entry_point('mlm', 'console_scripts', 'mlm')())
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 184, in main
+    args.func(args)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/cmds.py", line 196, in cmd_score
+    model, vocab, tokenizer = get_pretrained(ctxs, args.model, weights_file, regression=args.no_mask)
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/src/mlm/models/__init__.py", line 151, in get_pretrained
+    raise ValueError("Model '{}' is not currently a supported PyTorch model".format(name))
+ValueError: Model '/scratch/work/moisioa3/conv_lm/finbert-finetune/log/' is not currently a supported PyTorch model

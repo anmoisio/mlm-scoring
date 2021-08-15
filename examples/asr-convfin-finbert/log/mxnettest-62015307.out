@@ -1,0 +1,49 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) miniconda/4.9.2
+
+ 
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+Package    Version
+---------- -------------------
+certifi    2021.5.30
+pip        21.1.3
+setuptools 52.0.0.post20210125
+wheel      0.36.2
+# conda environments:
+#
+mlm-scoring              /home/moisioa3/.conda/envs/mlm-scoring
+mlm-scoring2             /home/moisioa3/.conda/envs/mlm-scoring2
+mlm-scoring3             /home/moisioa3/.conda/envs/mlm-scoring3
+mlm-scoring4             /home/moisioa3/.conda/envs/mlm-scoring4
+mlm-scoring5          *  /home/moisioa3/.conda/envs/mlm-scoring5
+base                     /share/apps/anaconda-ci/fgci-centos7-anaconda/software/miniconda/4.9.2/f625fd92
+
+# packages in environment at /home/moisioa3/.conda/envs/mlm-scoring5:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             4.5                       1_gnu  
+ca-certificates           2021.7.5             h06a4308_1  
+certifi                   2021.5.30        py39h06a4308_0  
+ld_impl_linux-64          2.35.1               h7274673_9  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.3.0               h5101ec6_17  
+libgomp                   9.3.0               h5101ec6_17  
+libstdcxx-ng              9.3.0               hd4cf53a_17  
+ncurses                   6.2                  he6710b0_1  
+openssl                   1.1.1k               h27cfd23_0  
+pip                       21.1.3           py39h06a4308_0  
+python                    3.9.6                h12debd9_0  
+readline                  8.1                  h27cfd23_0  
+setuptools                52.0.0           py39h06a4308_0  
+sqlite                    3.36.0               hc218d9a_0  
+tk                        8.6.10               hbc83047_0  
+tzdata                    2021a                h52ac0ba_0  
+wheel                     0.36.2             pyhd3eb1b0_0  
+xz                        5.2.5                h7b6447c_0  
+zlib                      1.2.11               h7b6447c_3  

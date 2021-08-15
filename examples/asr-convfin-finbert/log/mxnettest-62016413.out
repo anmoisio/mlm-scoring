@@ -1,0 +1,24 @@
+
+Currently Loaded Modules:
+  1) CUDA/9.0.176   2) cuDNN/7-CUDA-9.0.176   3) anaconda/2021-03-tf2
+
+ 
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+Traceback (most recent call last):
+  File "/scratch/work/moisioa3/conv_lm/mlm-scoring/examples/asr-convfin-finbert/mxnet_test.py", line 1, in <module>
+    import mxnet as mx
+  File "/home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages/mxnet/__init__.py", line 23, in <module>
+    from .context import Context, current_context, cpu, gpu, cpu_pinned
+  File "/home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages/mxnet/context.py", line 23, in <module>
+    from .base import classproperty, with_metaclass, _MXClassPropertyMetaClass
+  File "/home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages/mxnet/base.py", line 351, in <module>
+    _LIB = _load_lib()
+  File "/home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/site-packages/mxnet/base.py", line 342, in _load_lib
+    lib = ctypes.CDLL(lib_path[0], ctypes.RTLD_LOCAL)
+  File "/home/moisioa3/.conda/envs/mlm-scoring5/lib/python3.9/ctypes/__init__.py", line 382, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libcudnn.so.8: cannot open shared object file: No such file or directory
